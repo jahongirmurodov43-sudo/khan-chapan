@@ -43,7 +43,17 @@
   },
   "story": {
     "heading": "Bizning hikoyamiz",
-    "sub": "Ta'm bilan yozilgan afsona"
+    "sub": "Ta'm bilan yozilgan afsona",
+    "name_heading": "Nom",
+    "name_p1": "Xon chapan — bu hukmdor tomonidan sharaf, hurmat va tegishlilik belgisi sifatida in'om etiladigan marosim xalati. Uni olish — tan olinish demakdir. Khan Chapan restorani ham shu ruhni o'zida mujassam etadi: har bir mehmon xonning sharafli mehmoni sifatida qabul qilinadigan joy.",
+    "name_quote": "\"Har bir stol — taxt. Har bir taom — nazr.\"",
+    "name_p2": "Tarixiy Sebzor mahallasida, Toshkentda asos solingan Khan Chapan bitta maqsad bilan yaratilgan: Markaziy Osiyoning qadimiy oshpazlik an'analarini saqlab qolish va ularni hozirgi zamonga uzrsiz olib kirish.",
+    "cuisine_heading": "Oshxona",
+    "cuisine_p1": "Beshbarmak — \"besh barmoq\" — o'zbek mehmondo'stligining markaziy taomi. Bu shunchaki taom emas — bu marosim. Mehmonlar yig'iladi, qo'llar qurollarni almashtiradi va ovqatlanish jarayoni umumiy, yaqin va jonli bo'ladi.",
+    "cuisine_p2": "Khan Chapan bu an'analarni o'chirmasdan yuksaltiradi. Bizning oshpazlarimiz — ko'plari avlodlar davomida oilaviy oshxonalarda o'qitilgan — klassikani ehtirom va aniqlik bilan talqin qiladi.",
+    "team_heading": "Afsona ortidagi odamlar",
+    "team_p": "80 dan ortiq kishidan iborat jamoamiz bitta ishonchni baham ko'radi: taom — bu yeyiladigan xotira. Bizga qo'shiling va tarixning bir qismiga aylaning.",
+    "team_btn": "Karyera"
   },
   "events": {
     "heading": "Tadbirlar va galereya",

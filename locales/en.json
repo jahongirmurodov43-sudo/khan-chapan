@@ -43,7 +43,17 @@
   },
   "story": {
     "heading": "Our Story",
-    "sub": "A legend written in flavour"
+    "sub": "A legend written in flavour",
+    "name_heading": "The Name",
+    "name_p1": "A Khan Chapan is the ceremonial robe gifted by a ruler to mark honour, respect, and belonging. To receive one is to be recognised. Khan Chapan, the restaurant, carries that same spirit: a place where every guest is received as an honoured guest of the Khan.",
+    "name_quote": "\"Every table is a throne. Every meal, an offering.\"",
+    "name_p2": "Founded in Tashkent, in the historic Sebzar district, Khan Chapan was built with one purpose: to preserve the ancient culinary traditions of Central Asia and bring them into the present without apology.",
+    "cuisine_heading": "The Cuisine",
+    "cuisine_p1": "Beshbarmak — \"five fingers\" — is the centrepiece of Uzbek hospitality. It is not merely a dish; it is a ritual. Guests gather, hands replace cutlery, and the act of eating becomes communal, intimate, alive.",
+    "cuisine_p2": "Khan Chapan elevates these traditions without erasing them. Our chefs — many trained across generations of family kitchens — interpret the classics with reverence and precision.",
+    "team_heading": "The People Behind the Legend",
+    "team_p": "Our team of over 80 people share one conviction: that food is memory made edible. Join us, and become part of the story.",
+    "team_btn": "Careers"
   },
   "events": {
     "heading": "Events & Gallery",
