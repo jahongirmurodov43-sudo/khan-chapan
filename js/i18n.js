@@ -13,6 +13,7 @@ const I18N = (() => {
     apply();
     updateSwitcher();
     if (typeof MENU !== 'undefined' && MENU.refresh) MENU.refresh();
+    if (typeof FEATURED !== 'undefined' && FEATURED.refresh) FEATURED.refresh();
   }
 
   function get(key) {
