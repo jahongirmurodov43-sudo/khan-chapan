@@ -46,7 +46,9 @@ const EVENTS = (() => {
     if (upcomingGrid) {
       if (_upcoming.length === 0) {
         if (noUpcoming) noUpcoming.style.display = 'block';
+        upcomingGrid.innerHTML = '';
       } else {
+        if (noUpcoming) noUpcoming.style.display = 'none';
         upcomingGrid.innerHTML = _upcoming.map(e => renderUpcoming(e, lang)).join('');
       }
     }
