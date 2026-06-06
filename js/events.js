@@ -1,4 +1,7 @@
 const EVENTS = (() => {
+  let _upcoming = [];
+  let _past = [];
+
   function formatDate(dateStr, lang) {
     const date   = new Date(dateStr);
     const locale = lang === 'uz' ? 'uz-UZ' : lang === 'ru' ? 'ru-RU' : 'en-GB';
@@ -35,29 +38,35 @@ const EVENTS = (() => {
       </div>`;
   }
 
-  async function init() {
-    const lang = localStorage.getItem('lang') || 'ru';
+  function render() {
+    const lang = I18N.current();
 
+    const upcomingGrid = document.getElementById('upcoming-grid');
+    const noUpcoming   = document.getElementById('no-upcoming');
+    if (upcomingGrid) {
+      if (_upcoming.length === 0) {
+        if (noUpcoming) noUpcoming.style.display = 'block';
+      } else {
+        upcomingGrid.innerHTML = _upcoming.map(e => renderUpcoming(e, lang)).join('');
+      }
+    }
+
+    const gallery = document.getElementById('gallery-grid');
+    if (gallery) {
+      gallery.innerHTML = _past.map(e => renderGalleryItem(e, lang)).join('');
+    }
+
+    if (window.animationsObserve) window.animationsObserve();
+  }
+
+  async function init() {
     try {
       const res    = await fetch('data/events.json');
       if (!res.ok) throw new Error('Failed to load events');
       const result = await res.json();
-
-      const upcoming = result.filter(e => e.status === 'upcoming');
-      const past     = result.filter(e => e.status === 'past');
-
-      const upcomingGrid = document.getElementById('upcoming-grid');
-      const noUpcoming   = document.getElementById('no-upcoming');
-      if (upcoming.length === 0) {
-        noUpcoming.style.display = 'block';
-      } else {
-        upcomingGrid.innerHTML = upcoming.map(e => renderUpcoming(e, lang)).join('');
-      }
-
-      const gallery = document.getElementById('gallery-grid');
-      gallery.innerHTML = past.map(e => renderGalleryItem(e, lang)).join('');
-
-      if (window.animationsObserve) window.animationsObserve();
+      _upcoming = result.filter(e => e.status === 'upcoming');
+      _past     = result.filter(e => e.status === 'past');
+      render();
     } catch (e) {
       console.error('Events load error:', e);
     }
@@ -72,5 +81,5 @@ const EVENTS = (() => {
     lb.style.display = 'flex';
   }
 
-  return { init, openLightbox };
+  return { init, refresh: render, openLightbox };
 })();

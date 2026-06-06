@@ -14,6 +14,7 @@ const I18N = (() => {
     updateSwitcher();
     if (typeof MENU !== 'undefined' && MENU.refresh) MENU.refresh();
     if (typeof FEATURED !== 'undefined' && FEATURED.refresh) FEATURED.refresh();
+    if (typeof EVENTS !== 'undefined' && EVENTS.refresh) EVENTS.refresh();
   }
 
   function get(key) {
