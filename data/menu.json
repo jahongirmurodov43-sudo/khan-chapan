@@ -1,142 +1,2334 @@
-[
-  {
-    "name": { "uz": "Somsa", "ru": "Самса", "en": "Samsa" },
-    "description": { "uz": "Tandirda pishirilgan go'shtli somsa", "ru": "Слоёные пирожки с мясом из тандыра", "en": "Flaky pastry filled with seasoned meat, baked in tandoor" },
-    "category": "starters",
-    "price": 25000,
-    "image": "images/menu/samsa.jpg",
-    "available": true,
-    "featured": false,
-    "order": 1
-  },
-  {
-    "name": { "uz": "Achichuk salati", "ru": "Салат Ачичук", "en": "Achichuk Salad" },
-    "description": { "uz": "Pomidor, piyoz va ziravor bilan tayyorlangan salat", "ru": "Свежие томаты и лук со специями", "en": "Fresh tomatoes and onion with spices" },
-    "category": "starters",
-    "price": 18000,
-    "image": "images/menu/achichuk.jpg",
-    "available": true,
-    "featured": false,
-    "order": 2
-  },
-  {
-    "name": { "uz": "Beshbarmak", "ru": "Бешбармак", "en": "Beshbarmak" },
-    "description": { "uz": "Qo'y go'shti va qo'l bilan yeyiladigan milliy taom", "ru": "Национальное блюдо из баранины с тестом, едят руками", "en": "Traditional lamb dish with hand-rolled pasta — eaten with the hands" },
-    "category": "mains",
-    "price": 95000,
-    "image": "images/menu/beshbarmak.jpg",
-    "available": true,
-    "featured": true,
-    "order": 1
-  },
-  {
-    "name": { "uz": "Osh (Palov)", "ru": "Плов", "en": "Plov (Uzbek Pilaf)" },
-    "description": { "uz": "Sifatli guruch, sabzi va go'sht bilan pishirilgan palov", "ru": "Рис с морковью, бараниной и специями, приготовленный в казане", "en": "Fragrant rice with lamb, carrots and spices, cooked in a kazan" },
-    "category": "mains",
-    "price": 65000,
-    "image": "images/menu/plov.jpg",
-    "available": true,
-    "featured": true,
-    "order": 2
-  },
-  {
-    "name": { "uz": "Lag'mon", "ru": "Лагман", "en": "Lagman" },
-    "description": { "uz": "Qo'lda cho'zilgan makaron va go'sht bilan sho'rva", "ru": "Суп с тянутой лапшой, мясом и овощами", "en": "Hand-pulled noodle soup with meat and vegetables" },
-    "category": "mains",
-    "price": 55000,
-    "image": "images/menu/lagman.jpg",
-    "available": true,
-    "featured": true,
-    "order": 3
-  },
-  {
-    "name": { "uz": "Mastava", "ru": "Мастава", "en": "Mastava" },
-    "description": { "uz": "Guruch va go'sht bilan qalin sho'rva", "ru": "Густой суп с рисом и бараниной", "en": "Hearty rice and lamb soup with vegetables" },
-    "category": "soups",
-    "price": 38000,
-    "image": "images/menu/mastava.jpg",
-    "available": true,
-    "featured": false,
-    "order": 1
-  },
-  {
-    "name": { "uz": "Shurva", "ru": "Шурпа", "en": "Shurpa" },
-    "description": { "uz": "Qo'y go'shti va sabzavotli an'anaviy sho'rva", "ru": "Традиционный суп из баранины с крупными овощами", "en": "Traditional lamb soup with whole vegetables and herbs" },
-    "category": "soups",
-    "price": 42000,
-    "image": "images/menu/shurpa.jpg",
-    "available": true,
-    "featured": false,
-    "order": 2
-  },
-  {
-    "name": { "uz": "Jigar kabob", "ru": "Печёночный кебаб", "en": "Liver Kebab" },
-    "description": { "uz": "Ko'mirda pishirilgan jigar kabob", "ru": "Кебаб из говяжьей печени на углях", "en": "Beef liver kebab grilled over charcoal" },
-    "category": "grills",
-    "price": 72000,
-    "image": "images/menu/jigar-kabob.jpg",
-    "available": true,
-    "featured": false,
-    "order": 1
-  },
-  {
-    "name": { "uz": "Qo'y kabob", "ru": "Шашлык из баранины", "en": "Lamb Shashlik" },
-    "description": { "uz": "Ko'mirda pishirilgan qo'y go'shti", "ru": "Сочный шашлык из баранины на углях", "en": "Juicy lamb skewers grilled over charcoal" },
-    "category": "grills",
-    "price": 85000,
-    "image": "images/menu/lamb-shashlik.jpg",
-    "available": true,
-    "featured": false,
-    "order": 2
-  },
-  {
-    "name": { "uz": "Ko'k choy", "ru": "Зелёный чай", "en": "Green Tea" },
-    "description": { "uz": "An'anaviy o'zbek yashil choy", "ru": "Традиционный узбекский зелёный чай", "en": "Traditional Uzbek green tea" },
-    "category": "drinks",
-    "price": 12000,
-    "image": "images/menu/green-tea.jpg",
-    "available": true,
-    "featured": false,
-    "order": 1
-  },
-  {
-    "name": { "uz": "Qora choy", "ru": "Чёрный чай", "en": "Black Tea" },
-    "description": { "uz": "Kuchli qora choy", "ru": "Крепкий чёрный чай", "en": "Strong black tea" },
-    "category": "drinks",
-    "price": 12000,
-    "image": "images/menu/black-tea.jpg",
-    "available": true,
-    "featured": false,
-    "order": 2
-  },
-  {
-    "name": { "uz": "Limonad", "ru": "Лимонад", "en": "Lemonade" },
-    "description": { "uz": "Uy limonadimiz", "ru": "Домашний лимонад", "en": "House-made lemonade" },
-    "category": "drinks",
-    "price": 22000,
-    "image": "images/menu/lemonade.jpg",
-    "available": true,
-    "featured": false,
-    "order": 3
-  },
-  {
-    "name": { "uz": "Nisholda", "ru": "Нишалло", "en": "Nisholda" },
-    "description": { "uz": "Tuxum oqi va shakar bilan tayyorlangan milliy desert", "ru": "Традиционный десерт из взбитых белков с сахаром", "en": "Traditional whipped egg white and sugar dessert" },
-    "category": "desserts",
-    "price": 20000,
-    "image": "images/menu/nisholda.jpg",
-    "available": true,
-    "featured": false,
-    "order": 1
-  },
-  {
-    "name": { "uz": "Halva", "ru": "Халва", "en": "Halva" },
-    "description": { "uz": "Un va yog' bilan tayyorlangan an'anaviy halva", "ru": "Традиционная халва из муки и масла", "en": "Traditional flour and butter halva" },
-    "category": "desserts",
-    "price": 18000,
-    "image": "images/menu/halva.jpg",
-    "available": true,
-    "featured": false,
-    "order": 2
-  }
-]
+{
+  "categories": [
+    {
+      "slug": "snacks",
+      "name": {
+        "ru": "Снэки",
+        "en": "Snacks",
+        "uz": "Sneklar"
+      }
+    },
+    {
+      "slug": "cold-starters",
+      "name": {
+        "ru": "Холодные закуски",
+        "en": "Cold Starters",
+        "uz": "Sovuq mazalar"
+      }
+    },
+    {
+      "slug": "salads",
+      "name": {
+        "ru": "Салаты",
+        "en": "Salads",
+        "uz": "Salatlar"
+      }
+    },
+    {
+      "slug": "hot-starters",
+      "name": {
+        "ru": "Горячие закуски",
+        "en": "Hot Starters",
+        "uz": "Issiq mazalar"
+      }
+    },
+    {
+      "slug": "soups",
+      "name": {
+        "ru": "Супы",
+        "en": "Soups",
+        "uz": "Sho'rvalar"
+      }
+    },
+    {
+      "slug": "khan",
+      "name": {
+        "ru": "Ханские блюда",
+        "en": "Khan Dishes",
+        "uz": "Xon taomlar"
+      }
+    },
+    {
+      "slug": "mains",
+      "name": {
+        "ru": "Основные блюда",
+        "en": "Main Dishes",
+        "uz": "Asosiy taomlar"
+      }
+    },
+    {
+      "slug": "beshbarmak",
+      "name": {
+        "ru": "Бешбармак",
+        "en": "Beshbarmak",
+        "uz": "Beshbarmak"
+      }
+    },
+    {
+      "slug": "syai",
+      "name": {
+        "ru": "Сяй",
+        "en": "Syai",
+        "uz": "Sayi"
+      }
+    },
+    {
+      "slug": "steaks",
+      "name": {
+        "ru": "Стэйки",
+        "en": "Steaks",
+        "uz": "Steyklar"
+      }
+    },
+    {
+      "slug": "shashlik",
+      "name": {
+        "ru": "Шашлыки",
+        "en": "Shashlik",
+        "uz": "Kaboblar"
+      }
+    },
+    {
+      "slug": "grill",
+      "name": {
+        "ru": "Гриль",
+        "en": "Grill",
+        "uz": "Gril"
+      }
+    },
+    {
+      "slug": "sides",
+      "name": {
+        "ru": "Гарниры",
+        "en": "Side Dishes",
+        "uz": "Garniturlar"
+      }
+    },
+    {
+      "slug": "sauces",
+      "name": {
+        "ru": "Соусы",
+        "en": "Sauces",
+        "uz": "Souslar"
+      }
+    },
+    {
+      "slug": "bread",
+      "name": {
+        "ru": "Хлеб",
+        "en": "Bread",
+        "uz": "Non"
+      }
+    },
+    {
+      "slug": "desserts",
+      "name": {
+        "ru": "Десерты",
+        "en": "Desserts",
+        "uz": "Desertlar"
+      }
+    },
+    {
+      "slug": "special",
+      "name": {
+        "ru": "Special Menu",
+        "en": "Special Menu",
+        "uz": "Maxsus menyu"
+      }
+    },
+    {
+      "slug": "bar",
+      "name": {
+        "ru": "Бар",
+        "en": "Bar",
+        "uz": "Bar"
+      }
+    },
+    {
+      "slug": "new",
+      "name": {
+        "ru": "Восточные новинки",
+        "en": "Eastern Novelties",
+        "uz": "Sharq yangiliklari"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 743,
+      "category": "snacks",
+      "name": {
+        "ru": "Сырные стики",
+        "en": "Сырные стики",
+        "uz": "Сырные стики"
+      },
+      "description": {
+        "ru": "сливочный сыр в хрустящей панировке",
+        "en": "сливочный сыр в хрустящей панировке",
+        "uz": "сливочный сыр в хрустящей панировке"
+      },
+      "price": 71000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/f85de0e2-7eec-4622-b920-e8a6948d3151_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 744,
+      "category": "snacks",
+      "name": {
+        "ru": "Мини-пельмени",
+        "en": "Мини-пельмени",
+        "uz": "Мини-пельмени"
+      },
+      "description": {
+        "ru": "хрустящие мини-пельмени с пикантным соусом",
+        "en": "хрустящие мини-пельмени с пикантным соусом",
+        "uz": "хрустящие мини-пельмени с пикантным соусом"
+      },
+      "price": 60000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/2206d3df-c5e5-41d8-b06b-6739d291c8e7_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 746,
+      "category": "snacks",
+      "name": {
+        "ru": "Гарлики",
+        "en": "Гарлики",
+        "uz": "Гарлики"
+      },
+      "description": {
+        "ru": "чесночные хлебцы с соусом тартар",
+        "en": "чесночные хлебцы с соусом тартар",
+        "uz": "чесночные хлебцы с соусом тартар"
+      },
+      "price": 40000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/cc9e1d11-ef70-49e0-aab6-77fd7a981445_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 751,
+      "category": "snacks",
+      "name": {
+        "ru": "Мини-рулетики",
+        "en": "Мини-рулетики",
+        "uz": "Мини-рулетики"
+      },
+      "description": {
+        "ru": "ролл из тонкого теста с восточным сыром в паре с пикантным соусом",
+        "en": "ролл из тонкого теста с восточным сыром в паре с пикантным соусом",
+        "uz": "ролл из тонкого теста с восточным сыром в паре с пикантным соусом"
+      },
+      "price": 55000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/9396674e-77d6-49ff-8090-be49558c94c8_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 752,
+      "category": "snacks",
+      "name": {
+        "ru": "Восточный деликатес",
+        "en": "Восточный деликатес",
+        "uz": "Восточный деликатес"
+      },
+      "description": {
+        "ru": "ханский деликатес из сахарных костей приготовленных на углях",
+        "en": "ханский деликатес из сахарных костей приготовленных на углях",
+        "uz": "ханский деликатес из сахарных костей приготовленных на углях"
+      },
+      "price": 88000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/f25d1f55-6521-4114-9b7d-f2044e968273_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 754,
+      "category": "cold-starters",
+      "name": {
+        "ru": "Сюзьма с овощами",
+        "en": "Сюзьма с овощами",
+        "uz": "Сюзьма с овощами"
+      },
+      "description": {
+        "ru": "Тандем сюзьмы и свежих овощей в лимонном соусе",
+        "en": "Тандем сюзьмы и свежих овощей в лимонном соусе",
+        "uz": "Тандем сюзьмы и свежих овощей в лимонном соусе"
+      },
+      "price": 48000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/96e4331a-2f4f-493c-ac91-8e5633427c3b_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 756,
+      "category": "cold-starters",
+      "name": {
+        "ru": "Овощной сет",
+        "en": "Овощной сет",
+        "uz": "Овощной сет"
+      },
+      "description": {
+        "ru": "Микс свежих овощей и зелени",
+        "en": "Микс свежих овощей и зелени",
+        "uz": "Микс свежих овощей и зелени"
+      },
+      "price": 94000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/2c010670-16e8-4184-a402-c8499235c5d5_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 757,
+      "category": "cold-starters",
+      "name": {
+        "ru": "Рыбный сет",
+        "en": "Рыбный сет",
+        "uz": "Рыбный сет"
+      },
+      "description": {
+        "ru": "Тонко нарезанные ломтики копченного лосося, сома, креветок, копченного тунца, эсколара, скумбрии и красной икры",
+        "en": "Тонко нарезанные ломтики копченного лосося, сома, креветок, копченного тунца, эсколара, скумбрии и красной икры",
+        "uz": "Тонко нарезанные ломтики копченного лосося, сома, креветок, копченного тунца, эсколара, скумбрии и красной икры"
+      },
+      "price": 445000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/11ce8897-9352-4dba-9758-0e7aa0a946be_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 758,
+      "category": "cold-starters",
+      "name": {
+        "ru": "Маринованный сет",
+        "en": "Маринованный сет",
+        "uz": "Маринованный сет"
+      },
+      "description": {
+        "ru": "Маринованные огурцы\r\nМаринованные томаты черри \r\nМаринованная армянская капуста\r\nКвашенная капуста\r\nМаринованные патиссоны \r\nМаринованные грибы",
+        "en": "Маринованные огурцы\r\nМаринованные томаты черри \r\nМаринованная армянская капуста\r\nКвашенная капуста\r\nМаринованные патиссоны \r\nМаринованные грибы",
+        "uz": "Маринованные огурцы\r\nМаринованные томаты черри \r\nМаринованная армянская капуста\r\nКвашенная капуста\r\nМаринованные патиссоны \r\nМаринованные грибы"
+      },
+      "price": 92000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/ce0e5ef3-1117-45ba-a3ca-53da317598a8_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 759,
+      "category": "cold-starters",
+      "name": {
+        "ru": "Мясной сет",
+        "en": "Мясной сет",
+        "uz": "Мясной сет"
+      },
+      "description": {
+        "ru": "Мясные деликатесы в восточным стиле: казы, рулет из цыпленка, рулет из телятины и конины, язык",
+        "en": "Мясные деликатесы в восточным стиле: казы, рулет из цыпленка, рулет из телятины и конины, язык",
+        "uz": "Мясные деликатесы в восточным стиле: казы, рулет из цыпленка, рулет из телятины и конины, язык"
+      },
+      "price": 370000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/f81ac2cb-acf6-476c-8abb-ce9675d0d9bf_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 760,
+      "category": "cold-starters",
+      "name": {
+        "ru": "Брынза с зеленью",
+        "en": "Брынза с зеленью",
+        "uz": "Брынза с зеленью"
+      },
+      "description": {
+        "ru": "Малосоленая брынза с восточными травами",
+        "en": "Малосоленая брынза с восточными травами",
+        "uz": "Малосоленая брынза с восточными травами"
+      },
+      "price": 55000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/2b4f95fc-4d32-4431-9e86-316291dd96ee_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 761,
+      "category": "cold-starters",
+      "name": {
+        "ru": "Сырный сет",
+        "en": "Сырный сет",
+        "uz": "Сырный сет"
+      },
+      "description": {
+        "ru": "Ассорти из 5 видов сыра: Гауда, Бри, Дор-блю, Моцарелла мини, Пармезан \r\n\r\nПодается с: медом, курагой, черносливом, грецкими орехами и солеными крекерами",
+        "en": "Ассорти из 5 видов сыра: Гауда, Бри, Дор-блю, Моцарелла мини, Пармезан \r\n\r\nПодается с: медом, курагой, черносливом, грецкими орехами и солеными крекерами",
+        "uz": "Ассорти из 5 видов сыра: Гауда, Бри, Дор-блю, Моцарелла мини, Пармезан \r\n\r\nПодается с: медом, курагой, черносливом, грецкими орехами и солеными крекерами"
+      },
+      "price": 270000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/6bf988e2-ffb0-4072-b80e-5615224f9ae8_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 763,
+      "category": "cold-starters",
+      "name": {
+        "ru": "Томаты с ливанским сыром",
+        "en": "Томаты с ливанским сыром",
+        "uz": "Томаты с ливанским сыром"
+      },
+      "description": {
+        "ru": "Красные томаты с лабне заправленные оливковым маслом",
+        "en": "Красные томаты с лабне заправленные оливковым маслом",
+        "uz": "Красные томаты с лабне заправленные оливковым маслом"
+      },
+      "price": 85000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/6b39d99f-687d-49c0-9833-da4870777777_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 827,
+      "category": "salads",
+      "name": {
+        "ru": "Восточное капрезе",
+        "en": "Восточное капрезе",
+        "uz": "Восточное капрезе"
+      },
+      "description": {
+        "ru": "Сливочная бурата на подушке из пряной рукколой и томатами\r\nПодается на хрустящей катламе с соусом песто",
+        "en": "Сливочная бурата на подушке из пряной рукколой и томатами\r\nПодается на хрустящей катламе с соусом песто",
+        "uz": "Сливочная бурата на подушке из пряной рукколой и томатами\r\nПодается на хрустящей катламе с соусом песто"
+      },
+      "price": 185000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/821e7f4d-fb29-430c-8fb9-0c74443ced1f_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 829,
+      "category": "salads",
+      "name": {
+        "ru": "Хоровац",
+        "en": "Хоровац",
+        "uz": "Хоровац"
+      },
+      "description": {
+        "ru": "Запечённые овощи на углях с базиликом",
+        "en": "Запечённые овощи на углях с базиликом",
+        "uz": "Запечённые овощи на углях с базиликом"
+      },
+      "price": 70000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/4521bea8-250a-49d9-9ba7-d60c4d9585e8_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 830,
+      "category": "salads",
+      "name": {
+        "ru": "Греческий",
+        "en": "Греческий",
+        "uz": "Греческий"
+      },
+      "description": {
+        "ru": "Традиционный овощной салат с козьем сыром под лимонным соусом",
+        "en": "Традиционный овощной салат с козьем сыром под лимонным соусом",
+        "uz": "Традиционный овощной салат с козьем сыром под лимонным соусом"
+      },
+      "price": 110000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/d40aa39d-6597-4680-a196-efe919391251_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 831,
+      "category": "salads",
+      "name": {
+        "ru": "Цезарь с цыпленком",
+        "en": "Цезарь с цыпленком",
+        "uz": "Цезарь с цыпленком"
+      },
+      "description": {
+        "ru": "Классический цезарь с соусом из каперсов и анчоусов",
+        "en": "Классический цезарь с соусом из каперсов и анчоусов",
+        "uz": "Классический цезарь с соусом из каперсов и анчоусов"
+      },
+      "price": 105000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/00b099b6-42f5-4288-aa70-5ec1ade0d536_large.jpg",
+      "featured": true
+    },
+    {
+      "id": 833,
+      "category": "salads",
+      "name": {
+        "ru": "Телятина по-ливански",
+        "en": "Телятина по-ливански",
+        "uz": "Телятина по-ливански"
+      },
+      "description": {
+        "ru": "Томленая телятина на углях с сыром и печеным перцем",
+        "en": "Томленая телятина на углях с сыром и печеным перцем",
+        "uz": "Томленая телятина на углях с сыром и печеным перцем"
+      },
+      "price": 165000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/e51f615c-aac9-429c-aaf7-5255ad19eae2_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 834,
+      "category": "salads",
+      "name": {
+        "ru": "Ачичук с сюзьмой",
+        "en": "Ачичук с сюзьмой",
+        "uz": "Ачичук с сюзьмой"
+      },
+      "description": {
+        "ru": "Восточный салат с сюзьмой и куртом",
+        "en": "Восточный салат с сюзьмой и куртом",
+        "uz": "Восточный салат с сюзьмой и куртом"
+      },
+      "price": 41000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/3f0b542d-174f-47e1-8738-b15e42c3a7f4_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 835,
+      "category": "salads",
+      "name": {
+        "ru": "Хрустящие баклажаны",
+        "en": "Хрустящие баклажаны",
+        "uz": "Хрустящие баклажаны"
+      },
+      "description": {
+        "ru": "Хрустящие баклажаны с арахисом, Khan-соусом и древесными грибами",
+        "en": "Хрустящие баклажаны с арахисом, Khan-соусом и древесными грибами",
+        "uz": "Хрустящие баклажаны с арахисом, Khan-соусом и древесными грибами"
+      },
+      "price": 132000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/237c1ac5-82c9-4767-861d-24f66ed67aac_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 837,
+      "category": "salads",
+      "name": {
+        "ru": "Восточное оливье",
+        "en": "Восточное оливье",
+        "uz": "Восточное оливье"
+      },
+      "description": {
+        "ru": "Оливье из конины с японским майонезом и зеленым горошком",
+        "en": "Оливье из конины с японским майонезом и зеленым горошком",
+        "uz": "Оливье из конины с японским майонезом и зеленым горошком"
+      },
+      "price": 69000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/412d1619-4149-4658-971a-6555624e9f5c_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 838,
+      "category": "salads",
+      "name": {
+        "ru": "Аралашма",
+        "en": "Аралашма",
+        "uz": "Аралашма"
+      },
+      "description": {
+        "ru": "теплая телятина в томатном соусе и копченой паприкой",
+        "en": "теплая телятина в томатном соусе и копченой паприкой",
+        "uz": "теплая телятина в томатном соусе и копченой паприкой"
+      },
+      "price": 88000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/f96e050c-4efb-4a23-8f29-c719817f5899_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 861,
+      "category": "salads",
+      "name": {
+        "ru": "Филе тунца с пряной рукколой",
+        "en": "Филе тунца с пряной рукколой",
+        "uz": "Филе тунца с пряной рукколой"
+      },
+      "description": {
+        "ru": "Консервированный тунец с рукколой и сыром моцарелла",
+        "en": "Консервированный тунец с рукколой и сыром моцарелла",
+        "uz": "Консервированный тунец с рукколой и сыром моцарелла"
+      },
+      "price": 133000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/ba1b0f8d-c123-49dd-99e8-cf07b8e2b2a7_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 863,
+      "category": "salads",
+      "name": {
+        "ru": "Цыпленок масала",
+        "en": "Цыпленок масала",
+        "uz": "Цыпленок масала"
+      },
+      "description": {
+        "ru": "Нежный цыпленок с нотками карри, миксом зелени, овощами и ореховой заправкой",
+        "en": "Нежный цыпленок с нотками карри, миксом зелени, овощами и ореховой заправкой",
+        "uz": "Нежный цыпленок с нотками карри, миксом зелени, овощами и ореховой заправкой"
+      },
+      "price": 81000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/7eeb03e7-111c-4381-b8d9-e75fa5c474c3_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 865,
+      "category": "hot-starters",
+      "name": {
+        "ru": "Долма",
+        "en": "Долма",
+        "uz": "Долма"
+      },
+      "description": {
+        "ru": "Рубленая телятина в листьях винограда и йогуртом",
+        "en": "Рубленая телятина в листьях винограда и йогуртом",
+        "uz": "Рубленая телятина в листьях винограда и йогуртом"
+      },
+      "price": 78000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/020ccc3c-d8cd-43b5-a9a7-e181cb0914b7_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 866,
+      "category": "hot-starters",
+      "name": {
+        "ru": "Слоёные пельмени",
+        "en": "Слоёные пельмени",
+        "uz": "Слоёные пельмени"
+      },
+      "description": {
+        "ru": "Хрустящее тесто с рубленой телятиной под соусом тартар",
+        "en": "Хрустящее тесто с рубленой телятиной под соусом тартар",
+        "uz": "Хрустящее тесто с рубленой телятиной под соусом тартар"
+      },
+      "price": 68000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/7560357e-cf70-4418-a447-18eb1152e609_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 867,
+      "category": "hot-starters",
+      "name": {
+        "ru": "Чебуреки «Искандер»",
+        "en": "Чебуреки «Искандер»",
+        "uz": "Чебуреки «Искандер»"
+      },
+      "description": {
+        "ru": "Мини-чебуреки в топленом соусе Искандер",
+        "en": "Мини-чебуреки в топленом соусе Искандер",
+        "uz": "Мини-чебуреки в топленом соусе Искандер"
+      },
+      "price": 68000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/19517ab0-f5c6-4e92-b413-1fd0c7be5b25_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 868,
+      "category": "hot-starters",
+      "name": {
+        "ru": "Бараньи семечки",
+        "en": "Бараньи семечки",
+        "uz": "Бараньи семечки"
+      },
+      "description": {
+        "ru": "Жареные бараньи семечки с хрустящим картофелем",
+        "en": "Жареные бараньи семечки с хрустящим картофелем",
+        "uz": "Жареные бараньи семечки с хрустящим картофелем"
+      },
+      "price": 126000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/f665bbc2-963a-45f0-8b3e-b37e01973f7d_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 871,
+      "category": "hot-starters",
+      "name": {
+        "ru": "Сырное пиде",
+        "en": "Сырное пиде",
+        "uz": "Сырное пиде"
+      },
+      "description": {
+        "ru": "Тонкое тесто с двумя видами сыра",
+        "en": "Тонкое тесто с двумя видами сыра",
+        "uz": "Тонкое тесто с двумя видами сыра"
+      },
+      "price": 90000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/df7f4d0e-d0cd-4782-8a00-782f1fa6fad5_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 872,
+      "category": "hot-starters",
+      "name": {
+        "ru": "Мини сомса с мясом",
+        "en": "Мини сомса с мясом",
+        "uz": "Мини сомса с мясом"
+      },
+      "description": {
+        "ru": "Слоеное тесто с рубленой телятиной",
+        "en": "Слоеное тесто с рубленой телятиной",
+        "uz": "Слоеное тесто с рубленой телятиной"
+      },
+      "price": 62000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/a9177828-68c8-4dcf-9672-af9f25f2f213_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 873,
+      "category": "hot-starters",
+      "name": {
+        "ru": "Мини сомса с зеленью",
+        "en": "Мини сомса с зеленью",
+        "uz": "Мини сомса с зеленью"
+      },
+      "description": {
+        "ru": "Слоеное тесто со шпинатом и брынзой",
+        "en": "Слоеное тесто со шпинатом и брынзой",
+        "uz": "Слоеное тесто со шпинатом и брынзой"
+      },
+      "price": 47000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/45c38d67-3765-4cb8-a559-fe597d49545a_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 874,
+      "category": "hot-starters",
+      "name": {
+        "ru": "Мини сомса с тыквой",
+        "en": "Мини сомса с тыквой",
+        "uz": "Мини сомса с тыквой"
+      },
+      "description": {
+        "ru": "Слоеное тесто с мускатной тыквой",
+        "en": "Слоеное тесто с мускатной тыквой",
+        "uz": "Слоеное тесто с мускатной тыквой"
+      },
+      "price": 51000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/0a9fde30-72be-4e08-bf09-088d3d674202_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 876,
+      "category": "hot-starters",
+      "name": {
+        "ru": "Кутабы с мясом",
+        "en": "Кутабы с мясом",
+        "uz": "Кутабы с мясом"
+      },
+      "description": {
+        "ru": "Тонкое сливочное тесто с телятиной",
+        "en": "Тонкое сливочное тесто с телятиной",
+        "uz": "Тонкое сливочное тесто с телятиной"
+      },
+      "price": 57000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/fc63cd96-365f-4d8f-9436-d05fa4640b1c_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 877,
+      "category": "hot-starters",
+      "name": {
+        "ru": "Кутабы с сыром",
+        "en": "Кутабы с сыром",
+        "uz": "Кутабы с сыром"
+      },
+      "description": {
+        "ru": "Тонкое тесто со сливочными сырами",
+        "en": "Тонкое тесто со сливочными сырами",
+        "uz": "Тонкое тесто со сливочными сырами"
+      },
+      "price": 57000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/f4bc7935-f4b0-4dc6-b715-59643272fc05_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 878,
+      "category": "hot-starters",
+      "name": {
+        "ru": "Восточный жульен",
+        "en": "Восточный жульен",
+        "uz": "Восточный жульен"
+      },
+      "description": {
+        "ru": "Хрустящие треугольники с грибами и курицей под сливочным соусом",
+        "en": "Хрустящие треугольники с грибами и курицей под сливочным соусом",
+        "uz": "Хрустящие треугольники с грибами и курицей под сливочным соусом"
+      },
+      "price": 71000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/677d5c6b-383d-4a57-8813-cf46c97c43c3_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 879,
+      "category": "soups",
+      "name": {
+        "ru": "Шурпа",
+        "en": "Шурпа",
+        "uz": "Шурпа"
+      },
+      "description": {
+        "ru": "Отварное каре ягненка с овощами",
+        "en": "Отварное каре ягненка с овощами",
+        "uz": "Отварное каре ягненка с овощами"
+      },
+      "price": 69000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/e78ba14e-799a-499c-966a-afa57fd19b9a_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 880,
+      "category": "soups",
+      "name": {
+        "ru": "Куриный суп",
+        "en": "Куриный суп",
+        "uz": "Куриный суп"
+      },
+      "description": {
+        "ru": "Куриное консоме с лапшой и зеленью",
+        "en": "Куриное консоме с лапшой и зеленью",
+        "uz": "Куриное консоме с лапшой и зеленью"
+      },
+      "price": 58000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/17516653-5c01-474d-982d-d9c3b6c67daa_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 881,
+      "category": "soups",
+      "name": {
+        "ru": "Хаш",
+        "en": "Хаш",
+        "uz": "Хаш"
+      },
+      "description": {
+        "ru": "Наваристый суп со смесью специй и рубленой говядиной",
+        "en": "Наваристый суп со смесью специй и рубленой говядиной",
+        "uz": "Наваристый суп со смесью специй и рубленой говядиной"
+      },
+      "price": 85000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/6dfbf6e0-c8b9-4b29-90d9-ef3e994d64c8_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 882,
+      "category": "soups",
+      "name": {
+        "ru": "Cуп «Чапан»",
+        "en": "Cуп «Чапан»",
+        "uz": "Cуп «Чапан»"
+      },
+      "description": {
+        "ru": "Восточный суп на основе бешбармака с мясными кусочками конины",
+        "en": "Восточный суп на основе бешбармака с мясными кусочками конины",
+        "uz": "Восточный суп на основе бешбармака с мясными кусочками конины"
+      },
+      "price": 58000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/0ce5af56-ceba-4a41-8603-971a5b378578_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 883,
+      "category": "soups",
+      "name": {
+        "ru": "Мастава",
+        "en": "Мастава",
+        "uz": "Мастава"
+      },
+      "description": {
+        "ru": "Традиционный узбекский суп",
+        "en": "Традиционный узбекский суп",
+        "uz": "Традиционный узбекский суп"
+      },
+      "price": 60000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/c2b81e86-d37a-43e7-8d62-f23275e45c69_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 884,
+      "category": "soups",
+      "name": {
+        "ru": "Чечевичный суп с пряной телятиной",
+        "en": "Чечевичный суп с пряной телятиной",
+        "uz": "Чечевичный суп с пряной телятиной"
+      },
+      "description": {
+        "ru": "Чечевичный крем-суп с вяленой телятиной",
+        "en": "Чечевичный крем-суп с вяленой телятиной",
+        "uz": "Чечевичный крем-суп с вяленой телятиной"
+      },
+      "price": 66000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/cf8849a6-e78f-4fcf-966f-ff1b29467982_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 886,
+      "category": "khan",
+      "name": {
+        "ru": "Ханский меч",
+        "en": "Ханский меч",
+        "uz": "Ханский меч"
+      },
+      "description": {
+        "ru": "Метровый мясной кебаб с овощами и томатным соусом",
+        "en": "Метровый мясной кебаб с овощами и томатным соусом",
+        "uz": "Метровый мясной кебаб с овощами и томатным соусом"
+      },
+      "price": 860000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/4b6857a2-2ee0-4315-a9cc-30b45ba46b0d_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 887,
+      "category": "khan",
+      "name": {
+        "ru": "Ханское ассорти закусок",
+        "en": "Ханское ассорти закусок",
+        "uz": "Ханское ассорти закусок"
+      },
+      "description": {
+        "ru": "Ассорти восточных горячих закусок",
+        "en": "Ассорти восточных горячих закусок",
+        "uz": "Ассорти восточных горячих закусок"
+      },
+      "price": 437000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/389b0ad6-2a30-4d69-80a2-5e623e40e857_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 888,
+      "category": "khan",
+      "name": {
+        "ru": "Ханский Брискет",
+        "en": "Ханский Брискет",
+        "uz": "Ханский Брискет"
+      },
+      "description": {
+        "ru": "Цельная грудинка телятины, 12 часового томления в восточных специях",
+        "en": "Цельная грудинка телятины, 12 часового томления в восточных специях",
+        "uz": "Цельная грудинка телятины, 12 часового томления в восточных специях"
+      },
+      "price": 2904000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/3c28b363-d0d4-4f37-86b6-b37efccc3bf7_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 891,
+      "category": "khan",
+      "name": {
+        "ru": "Ханский бургер",
+        "en": "Ханский бургер",
+        "uz": "Ханский бургер"
+      },
+      "description": {
+        "ru": "Ханская котлета с двумя видами сыра и авторским соусом на традиционном патыре",
+        "en": "Ханская котлета с двумя видами сыра и авторским соусом на традиционном патыре",
+        "uz": "Ханская котлета с двумя видами сыра и авторским соусом на традиционном патыре"
+      },
+      "price": 576000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/b8e8ee63-7d2a-4ba2-bc67-3d1807fcedac_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 892,
+      "category": "khan",
+      "name": {
+        "ru": "Ханский бешбармак",
+        "en": "Ханский бешбармак",
+        "uz": "Ханский бешбармак"
+      },
+      "description": {
+        "ru": "Традиционный бешбармак с вялеными томатами и голенью ягненка",
+        "en": "Традиционный бешбармак с вялеными томатами и голенью ягненка",
+        "uz": "Традиционный бешбармак с вялеными томатами и голенью ягненка"
+      },
+      "price": 886000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/5c88decb-eeb7-40c3-aa10-ea8bce7ed912_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 894,
+      "category": "khan",
+      "name": {
+        "ru": "Садж с телятиной",
+        "en": "Садж с телятиной",
+        "uz": "Садж с телятиной"
+      },
+      "description": {
+        "ru": "Ближневосточный садж из телятины на горящей сковороде",
+        "en": "Ближневосточный садж из телятины на горящей сковороде",
+        "uz": "Ближневосточный садж из телятины на горящей сковороде"
+      },
+      "price": 442000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/86978c3b-0d26-4bcc-b200-51bead15205a_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 895,
+      "category": "khan",
+      "name": {
+        "ru": "Садж с цыпленком",
+        "en": "Садж с цыпленком",
+        "uz": "Садж с цыпленком"
+      },
+      "description": {
+        "ru": "Рубленый цыпленок на горящей сковороде",
+        "en": "Рубленый цыпленок на горящей сковороде",
+        "uz": "Рубленый цыпленок на горящей сковороде"
+      },
+      "price": 400000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/990cafce-c4c5-4669-ada9-5d108c338ad1_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4476,
+      "category": "khan",
+      "name": {
+        "ru": "Ханский меч мини",
+        "en": "Ханский меч мини",
+        "uz": "Ханский меч мини"
+      },
+      "description": {
+        "ru": "Мини ханский меч",
+        "en": "Мини ханский меч",
+        "uz": "Мини ханский меч"
+      },
+      "price": 450000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/d08c4453-262c-473d-9af5-d846e09bd0c0_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 896,
+      "category": "mains",
+      "name": {
+        "ru": "Баранина по-арабски",
+        "en": "Баранина по-арабски",
+        "uz": "Баранина по-арабски"
+      },
+      "description": {
+        "ru": "Томленая голень ягненка в специях с хрустящей корочкой и кус-кус с овощами",
+        "en": "Томленая голень ягненка в специях с хрустящей корочкой и кус-кус с овощами",
+        "uz": "Томленая голень ягненка в специях с хрустящей корочкой и кус-кус с овощами"
+      },
+      "price": 225000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/129a46be-1a24-4298-95ea-a8f14dc41cf2_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 897,
+      "category": "mains",
+      "name": {
+        "ru": "Филе из сёмги",
+        "en": "Филе из сёмги",
+        "uz": "Филе из сёмги"
+      },
+      "description": {
+        "ru": "Филе сёмги на гриле с микс-салатом и сливочно-сырном соусе",
+        "en": "Филе сёмги на гриле с микс-салатом и сливочно-сырном соусе",
+        "uz": "Филе сёмги на гриле с микс-салатом и сливочно-сырном соусе"
+      },
+      "price": 333000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/33e4922b-f873-4a2a-b8bd-c86b22a4e5aa_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 900,
+      "category": "mains",
+      "name": {
+        "ru": "Жареные манты",
+        "en": "Жареные манты",
+        "uz": "Жареные манты"
+      },
+      "description": {
+        "ru": "Традиционные манты с хрустящей обжаркой и топленым маслом",
+        "en": "Традиционные манты с хрустящей обжаркой и топленым маслом",
+        "uz": "Традиционные манты с хрустящей обжаркой и топленым маслом"
+      },
+      "price": 58000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/5c89a52c-5805-4f38-9e7a-75ab419d1f54_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 901,
+      "category": "mains",
+      "name": {
+        "ru": "Мини-манты",
+        "en": "Мини-манты",
+        "uz": "Мини-манты"
+      },
+      "description": {
+        "ru": "Восточные манты по классическому рецепту",
+        "en": "Восточные манты по классическому рецепту",
+        "uz": "Восточные манты по классическому рецепту"
+      },
+      "price": 58000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/4eac294a-7934-4a93-9bdb-986d068435f7_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 902,
+      "category": "mains",
+      "name": {
+        "ru": "Казан-кабоб",
+        "en": "Казан-кабоб",
+        "uz": "Казан-кабоб"
+      },
+      "description": {
+        "ru": "Классический узбекский казан-кабоб из баранины с ломтиками лука и хрустящим картофелем",
+        "en": "Классический узбекский казан-кабоб из баранины с ломтиками лука и хрустящим картофелем",
+        "uz": "Классический узбекский казан-кабоб из баранины с ломтиками лука и хрустящим картофелем"
+      },
+      "price": 137000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/7d660d23-f227-4fae-8f00-7e27cd15968e_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4482,
+      "category": "mains",
+      "name": {
+        "ru": "Кефта из цыпленка",
+        "en": "Кефта из цыпленка",
+        "uz": "Кефта из цыпленка"
+      },
+      "description": {
+        "ru": "Кефта, рис, соус",
+        "en": "Кефта, рис, соус",
+        "uz": "Кефта, рис, соус"
+      },
+      "price": 110000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/fb87925d-75e7-43d4-ab35-96f0a6d09301_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4483,
+      "category": "mains",
+      "name": {
+        "ru": "Кефта из телятины",
+        "en": "Кефта из телятины",
+        "uz": "Кефта из телятины"
+      },
+      "description": {
+        "ru": "Кефта, рис, соус",
+        "en": "Кефта, рис, соус",
+        "uz": "Кефта, рис, соус"
+      },
+      "price": 132000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/646ff9f8-b20d-40ef-af4e-e13e49d3abd4_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 904,
+      "category": "beshbarmak",
+      "name": {
+        "ru": "Бешбармак мужская порция",
+        "en": "Бешбармак мужская порция",
+        "uz": "Бешбармак мужская порция"
+      },
+      "description": {
+        "ru": "мясной бульон из конины с нежным тонким тестом.",
+        "en": "мясной бульон из конины с нежным тонким тестом.",
+        "uz": "мясной бульон из конины с нежным тонким тестом."
+      },
+      "price": 210000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/df30e589-909e-4cb5-9872-3295c5d0fd04_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 905,
+      "category": "beshbarmak",
+      "name": {
+        "ru": "Бешбармак женская порция",
+        "en": "Бешбармак женская порция",
+        "uz": "Бешбармак женская порция"
+      },
+      "description": {
+        "ru": "мясной бульон из конины с нежным тонким тестом.",
+        "en": "мясной бульон из конины с нежным тонким тестом.",
+        "uz": "мясной бульон из конины с нежным тонким тестом."
+      },
+      "price": 120000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/1c297b24-8dd2-49b0-b4fc-27bad36dad0d_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 906,
+      "category": "syai",
+      "name": {
+        "ru": "Могуру сяй",
+        "en": "Могуру сяй",
+        "uz": "Могуру сяй"
+      },
+      "description": {
+        "ru": "Набор восточных овощей с ломтиками пикантной телятины и древесными грибами",
+        "en": "Набор восточных овощей с ломтиками пикантной телятины и древесными грибами",
+        "uz": "Набор восточных овощей с ломтиками пикантной телятины и древесными грибами"
+      },
+      "price": 131000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/14a464b4-bd83-41b9-9b18-ca990d180e13_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 907,
+      "category": "syai",
+      "name": {
+        "ru": "Гуйру сяй",
+        "en": "Гуйру сяй",
+        "uz": "Гуйру сяй"
+      },
+      "description": {
+        "ru": "Уйгурский теплый салат с овощами и телятиной в пряно-томатном соусе",
+        "en": "Уйгурский теплый салат с овощами и телятиной в пряно-томатном соусе",
+        "uz": "Уйгурский теплый салат с овощами и телятиной в пряно-томатном соусе"
+      },
+      "price": 106000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/be6fa83b-f177-42a9-9e14-af3b65235d10_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 908,
+      "category": "syai",
+      "name": {
+        "ru": "Баранина на жаровне",
+        "en": "Баранина на жаровне",
+        "uz": "Баранина на жаровне"
+      },
+      "description": {
+        "ru": "Нежные кусочки баранины в восточных специях",
+        "en": "Нежные кусочки баранины в восточных специях",
+        "uz": "Нежные кусочки баранины в восточных специях"
+      },
+      "price": 106000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/f18e8877-79eb-4f59-8a31-1502eacfa859_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 909,
+      "category": "syai",
+      "name": {
+        "ru": "Телятина на жаровне",
+        "en": "Телятина на жаровне",
+        "uz": "Телятина на жаровне"
+      },
+      "description": {
+        "ru": "Слайсы телятины с луком и чесноком",
+        "en": "Слайсы телятины с луком и чесноком",
+        "uz": "Слайсы телятины с луком и чесноком"
+      },
+      "price": 106000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/25f2ca3a-07f7-4d1d-9dfe-071a6ab11298_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 910,
+      "category": "steaks",
+      "name": {
+        "ru": "Рибай",
+        "en": "Рибай",
+        "uz": "Рибай"
+      },
+      "description": {
+        "ru": "говяжий отруб с овощами гриль приготовлен на углях",
+        "en": "говяжий отруб с овощами гриль приготовлен на углях",
+        "uz": "говяжий отруб с овощами гриль приготовлен на углях"
+      },
+      "price": 420000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/e78b216b-10a8-4abe-9434-28d1052e2e5d_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 914,
+      "category": "steaks",
+      "name": {
+        "ru": "Медальон с овощами",
+        "en": "Медальон с овощами",
+        "uz": "Медальон с овощами"
+      },
+      "description": {
+        "ru": "мраморная вырезка телятины с овощами на гриле",
+        "en": "мраморная вырезка телятины с овощами на гриле",
+        "uz": "мраморная вырезка телятины с овощами на гриле"
+      },
+      "price": 231000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/50f5d3b7-a0d5-49f0-bbae-6860c1b6f93b_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4532,
+      "category": "steaks",
+      "name": {
+        "ru": "Пеппер стейк",
+        "en": "Пеппер стейк",
+        "uz": "Пеппер стейк"
+      },
+      "description": {
+        "ru": "Пряная мраморная вырезка телятины с овощами на гриле",
+        "en": "Пряная мраморная вырезка телятины с овощами на гриле",
+        "uz": "Пряная мраморная вырезка телятины с овощами на гриле"
+      },
+      "price": 352000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/fcd4c5ea-cd2c-4314-984e-62a9c9667ef7_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 915,
+      "category": "shashlik",
+      "name": {
+        "ru": "Шашлык из куриных крыльев",
+        "en": "Шашлык из куриных крыльев",
+        "uz": "Шашлык из куриных крыльев"
+      },
+      "description": {
+        "ru": "Нежные куриные крылья с томатным маринадом на углях",
+        "en": "Нежные куриные крылья с томатным маринадом на углях",
+        "uz": "Нежные куриные крылья с томатным маринадом на углях"
+      },
+      "price": 93000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/dc96e235-1068-4c23-a61d-19d36d86c9a9_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 916,
+      "category": "shashlik",
+      "name": {
+        "ru": "Шашлык из куриных бедер",
+        "en": "Шашлык из куриных бедер",
+        "uz": "Шашлык из куриных бедер"
+      },
+      "description": {
+        "ru": "сочные кусочки цыпленка в восточных специях",
+        "en": "сочные кусочки цыпленка в восточных специях",
+        "uz": "сочные кусочки цыпленка в восточных специях"
+      },
+      "price": 93000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/3e9c7f5c-79e8-4529-94b7-d2b45ee8e41e_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 917,
+      "category": "shashlik",
+      "name": {
+        "ru": "Шашлык из телятины",
+        "en": "Шашлык из телятины",
+        "uz": "Шашлык из телятины"
+      },
+      "description": {
+        "ru": "кусочки нежной телятины в пряных специях с томатным соусом и луком",
+        "en": "кусочки нежной телятины в пряных специях с томатным соусом и луком",
+        "uz": "кусочки нежной телятины в пряных специях с томатным соусом и луком"
+      },
+      "price": 167000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/33aecdb2-eeb8-4735-aba0-3a64284e5458_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 918,
+      "category": "shashlik",
+      "name": {
+        "ru": "Шашлык из баранины",
+        "en": "Шашлык из баранины",
+        "uz": "Шашлык из баранины"
+      },
+      "description": {
+        "ru": "кусочки ягненка с восточными травами",
+        "en": "кусочки ягненка с восточными травами",
+        "uz": "кусочки ягненка с восточными травами"
+      },
+      "price": 167000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/6adbc052-beac-4768-b183-632f5001aee5_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 919,
+      "category": "shashlik",
+      "name": {
+        "ru": "Овощи гриль",
+        "en": "Овощи гриль",
+        "uz": "Овощи гриль"
+      },
+      "description": {
+        "ru": "набор овощей на углях",
+        "en": "набор овощей на углях",
+        "uz": "набор овощей на углях"
+      },
+      "price": 52000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/268c5531-fada-4606-9c78-28727619f57c_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 921,
+      "category": "shashlik",
+      "name": {
+        "ru": "Люля из телятины",
+        "en": "Люля из телятины",
+        "uz": "Люля из телятины"
+      },
+      "description": {
+        "ru": "рубленая телятина с пряными специями на углях",
+        "en": "рубленая телятина с пряными специями на углях",
+        "uz": "рубленая телятина с пряными специями на углях"
+      },
+      "price": 93000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/f67325d3-af9b-4040-8d81-1692f1c1e5b2_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 923,
+      "category": "shashlik",
+      "name": {
+        "ru": "Люля из баранины",
+        "en": "Люля из баранины",
+        "uz": "Люля из баранины"
+      },
+      "description": {
+        "ru": "рубленая баранина на углях",
+        "en": "рубленая баранина на углях",
+        "uz": "рубленая баранина на углях"
+      },
+      "price": 93000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/7f897b30-605e-4d9a-b116-b5d5eb3bfd27_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 925,
+      "category": "shashlik",
+      "name": {
+        "ru": "Рулет из телятины с томатами",
+        "en": "Рулет из телятины с томатами",
+        "uz": "Рулет из телятины с томатами"
+      },
+      "description": {
+        "ru": "пикантные слайсы мраморной телятины с томатами и топленым маслом",
+        "en": "пикантные слайсы мраморной телятины с томатами и топленым маслом",
+        "uz": "пикантные слайсы мраморной телятины с томатами и топленым маслом"
+      },
+      "price": 133000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/5a3a2f19-e690-483e-9c4f-d1769bbf6a3c_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 926,
+      "category": "shashlik",
+      "name": {
+        "ru": "Ассорти шашлыков",
+        "en": "Ассорти шашлыков",
+        "uz": "Ассорти шашлыков"
+      },
+      "description": {
+        "ru": "набор мясных кебабов и рубленого цыпленка с овощами и телятиной",
+        "en": "набор мясных кебабов и рубленого цыпленка с овощами и телятиной",
+        "uz": "набор мясных кебабов и рубленого цыпленка с овощами и телятиной"
+      },
+      "price": 760000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/50b44365-43e7-4a41-af40-d092382a1de6_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 928,
+      "category": "shashlik",
+      "name": {
+        "ru": "Каре ягненка",
+        "en": "Каре ягненка",
+        "uz": "Каре ягненка"
+      },
+      "description": {
+        "ru": "ребра ягненка с томатным соусом и семенами граната",
+        "en": "ребра ягненка с томатным соусом и семенами граната",
+        "uz": "ребра ягненка с томатным соусом и семенами граната"
+      },
+      "price": 167000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/3b2a47e9-c8c9-4c3f-b1c6-31ae0a51efaa_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 929,
+      "category": "grill",
+      "name": {
+        "ru": "Сарма бейти",
+        "en": "Сарма бейти",
+        "uz": "Сарма бейти"
+      },
+      "description": {
+        "ru": "османский шашлык на тонком тесте с Искандер соусом и сыром",
+        "en": "османский шашлык на тонком тесте с Искандер соусом и сыром",
+        "uz": "османский шашлык на тонком тесте с Искандер соусом и сыром"
+      },
+      "price": 152000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/061ab874-159a-469f-a2d7-073715e65c5b_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 934,
+      "category": "sides",
+      "name": {
+        "ru": "Рис",
+        "en": "Рис",
+        "uz": "Рис"
+      },
+      "description": {
+        "ru": "Белый рис",
+        "en": "Белый рис",
+        "uz": "Белый рис"
+      },
+      "price": 26000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/b7f1ced2-1da8-49aa-80fb-bd4d336c5ae6_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 937,
+      "category": "sides",
+      "name": {
+        "ru": "Картофель фри",
+        "en": "Картофель фри",
+        "uz": "Картофель фри"
+      },
+      "description": {
+        "ru": "Картофель фри",
+        "en": "Картофель фри",
+        "uz": "Картофель фри"
+      },
+      "price": 36000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/3c511267-0f4f-4be9-9aeb-af72446a83e6_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 938,
+      "category": "sides",
+      "name": {
+        "ru": "Картофель с розмарином",
+        "en": "Картофель с розмарином",
+        "uz": "Картофель с розмарином"
+      },
+      "description": {
+        "ru": "Картофель с розмарином",
+        "en": "Картофель с розмарином",
+        "uz": "Картофель с розмарином"
+      },
+      "price": 43000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/fe992183-cea3-4c9b-9f20-5391fabd17d0_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 939,
+      "category": "sides",
+      "name": {
+        "ru": "Рис с овощами",
+        "en": "Рис с овощами",
+        "uz": "Рис с овощами"
+      },
+      "description": {
+        "ru": "Рис с овощами",
+        "en": "Рис с овощами",
+        "uz": "Рис с овощами"
+      },
+      "price": 36000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/ebb83b89-9684-47af-8d29-92f6a6d76517_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 940,
+      "category": "sides",
+      "name": {
+        "ru": "Кукуруза на гриле",
+        "en": "Кукуруза на гриле",
+        "uz": "Кукуруза на гриле"
+      },
+      "description": {
+        "ru": "Кукуруза на гриле",
+        "en": "Кукуруза на гриле",
+        "uz": "Кукуруза на гриле"
+      },
+      "price": 43000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/9ed1ccd0-e143-4111-95ab-54f723e8688e_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 941,
+      "category": "sides",
+      "name": {
+        "ru": "Овощи гриль",
+        "en": "Овощи гриль",
+        "uz": "Овощи гриль"
+      },
+      "description": {
+        "ru": "Овощи гриль",
+        "en": "Овощи гриль",
+        "uz": "Овощи гриль"
+      },
+      "price": 52000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/c845c17d-b9dc-427f-b60d-66ad7256e1b8_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 942,
+      "category": "sides",
+      "name": {
+        "ru": "Картофель на гриле",
+        "en": "Картофель на гриле",
+        "uz": "Картофель на гриле"
+      },
+      "description": {
+        "ru": "Картофель на гриле",
+        "en": "Картофель на гриле",
+        "uz": "Картофель на гриле"
+      },
+      "price": 43000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/4eb9da1d-c4a2-453d-b95b-35f4058b23ff_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 944,
+      "category": "sides",
+      "name": {
+        "ru": "Грибы",
+        "en": "Грибы",
+        "uz": "Грибы"
+      },
+      "description": {
+        "ru": "Грибы",
+        "en": "Грибы",
+        "uz": "Грибы"
+      },
+      "price": 55000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/5736117b-685d-4000-b0bf-d61645516a15_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 948,
+      "category": "sauces",
+      "name": {
+        "ru": "Пеппер-соус",
+        "en": "Пеппер-соус",
+        "uz": "Пеппер-соус"
+      },
+      "description": {
+        "ru": "Пеппер-соус",
+        "en": "Пеппер-соус",
+        "uz": "Пеппер-соус"
+      },
+      "price": 31000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/1ca73859-df8b-459d-b4d0-ad7a1ce4f138_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 950,
+      "category": "sauces",
+      "name": {
+        "ru": "Томатный",
+        "en": "Томатный",
+        "uz": "Томатный"
+      },
+      "description": {
+        "ru": "Томатный",
+        "en": "Томатный",
+        "uz": "Томатный"
+      },
+      "price": 12000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/83d6f483-280f-422d-b49e-ac9ad3c1aeb0_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 951,
+      "category": "sauces",
+      "name": {
+        "ru": "Чесночный",
+        "en": "Чесночный",
+        "uz": "Чесночный"
+      },
+      "description": {
+        "ru": "Чесночный",
+        "en": "Чесночный",
+        "uz": "Чесночный"
+      },
+      "price": 22000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/9f70a947-eb53-465a-a381-a912b3dcf939_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 952,
+      "category": "sauces",
+      "name": {
+        "ru": "Сырный",
+        "en": "Сырный",
+        "uz": "Сырный"
+      },
+      "description": {
+        "ru": "Сырный",
+        "en": "Сырный",
+        "uz": "Сырный"
+      },
+      "price": 27000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/55a082f2-263c-4578-96e4-04577c7a8c6c_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 958,
+      "category": "sauces",
+      "name": {
+        "ru": "Сливочный",
+        "en": "Сливочный",
+        "uz": "Сливочный"
+      },
+      "description": {
+        "ru": "Сливочный",
+        "en": "Сливочный",
+        "uz": "Сливочный"
+      },
+      "price": 19000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/9cd8e565-7f89-428f-80e1-e36a99e26162_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4484,
+      "category": "sauces",
+      "name": {
+        "ru": "Чимичури",
+        "en": "Чимичури",
+        "uz": "Чимичури"
+      },
+      "description": {
+        "ru": "чимичури",
+        "en": "чимичури",
+        "uz": "чимичури"
+      },
+      "price": 35000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/6129fba7-d777-4df1-bed4-f47bdc11e149_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4485,
+      "category": "sauces",
+      "name": {
+        "ru": "Барбекю",
+        "en": "Барбекю",
+        "uz": "Барбекю"
+      },
+      "description": {
+        "ru": "Барбекю",
+        "en": "Барбекю",
+        "uz": "Барбекю"
+      },
+      "price": 15000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/b855f0ed-174f-4c67-aed8-23485463e4b1_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 961,
+      "category": "bread",
+      "name": {
+        "ru": "Ассорти булочек",
+        "en": "Ассорти булочек",
+        "uz": "Ассорти булочек"
+      },
+      "description": {
+        "ru": "Ассорти булочек",
+        "en": "Ассорти булочек",
+        "uz": "Ассорти булочек"
+      },
+      "price": 34000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/796e5376-f219-434b-bd3d-69e1c4a26d06_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 967,
+      "category": "bread",
+      "name": {
+        "ru": "Баурсаки",
+        "en": "Баурсаки",
+        "uz": "Баурсаки"
+      },
+      "description": {
+        "ru": "Баурсаки",
+        "en": "Баурсаки",
+        "uz": "Баурсаки"
+      },
+      "price": 19000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/029c3061-4126-4219-8437-b8b24a9e9f6f_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 974,
+      "category": "desserts",
+      "name": {
+        "ru": "Классический чизкейк",
+        "en": "Классический чизкейк",
+        "uz": "Классический чизкейк"
+      },
+      "description": {
+        "ru": "творожный десерт с ягодами",
+        "en": "творожный десерт с ягодами",
+        "uz": "творожный десерт с ягодами"
+      },
+      "price": 62000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/1d7c2210-1c59-4886-8f88-c18e75fe9f3a_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 978,
+      "category": "desserts",
+      "name": {
+        "ru": "Фруктовый сет",
+        "en": "Фруктовый сет",
+        "uz": "Фруктовый сет"
+      },
+      "description": {
+        "ru": "ассорти цитрусовых фруктов и ягод",
+        "en": "ассорти цитрусовых фруктов и ягод",
+        "uz": "ассорти цитрусовых фруктов и ягод"
+      },
+      "price": 390000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/4ff7a81b-7617-41ea-bfd0-997f05e7ec9f_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4514,
+      "category": "desserts",
+      "name": {
+        "ru": "Шоколадный чизкейк",
+        "en": "Шоколадный чизкейк",
+        "uz": "Шоколадный чизкейк"
+      },
+      "description": {
+        "ru": "Шоколадный чизкейк",
+        "en": "Шоколадный чизкейк",
+        "uz": "Шоколадный чизкейк"
+      },
+      "price": 73000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/2a0b7dde-22f8-498a-8351-623ac24d31c5_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4515,
+      "category": "desserts",
+      "name": {
+        "ru": "Воздушный медовик",
+        "en": "Воздушный медовик",
+        "uz": "Воздушный медовик"
+      },
+      "description": {
+        "ru": "Воздушный медовик",
+        "en": "Воздушный медовик",
+        "uz": "Воздушный медовик"
+      },
+      "price": 52000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/51c264e8-600a-4a85-8b05-023725107c86_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4516,
+      "category": "desserts",
+      "name": {
+        "ru": "Баклава коуч",
+        "en": "Баклава коуч",
+        "uz": "Баклава коуч"
+      },
+      "description": {
+        "ru": "Баклава",
+        "en": "Баклава",
+        "uz": "Баклава"
+      },
+      "price": 93000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/03fb3127-1fdc-4e93-a2ac-f9aa03a673cc_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4471,
+      "category": "special",
+      "name": {
+        "ru": "Дум казан кебаб",
+        "en": "Дум казан кебаб",
+        "uz": "Дум казан кебаб"
+      },
+      "description": {
+        "ru": "Говяжий хвост, картошка, лук",
+        "en": "Говяжий хвост, картошка, лук",
+        "uz": "Говяжий хвост, картошка, лук"
+      },
+      "price": 110000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/d199cb30-0c0d-45f6-803c-11de64bfc38c_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4472,
+      "category": "special",
+      "name": {
+        "ru": "Дум шурпа",
+        "en": "Дум шурпа",
+        "uz": "Дум шурпа"
+      },
+      "description": {
+        "ru": "Говяжий хвост, картофель, лук, морковь, болгарский перец, помидор",
+        "en": "Говяжий хвост, картофель, лук, морковь, болгарский перец, помидор",
+        "uz": "Говяжий хвост, картофель, лук, морковь, болгарский перец, помидор"
+      },
+      "price": 54000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/f375b7a0-7f2a-41fd-a7a4-bfde78d2a4ca_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4582,
+      "category": "special",
+      "name": {
+        "ru": "Бещ рамён",
+        "en": "Бещ рамён",
+        "uz": "Бещ рамён"
+      },
+      "description": {
+        "ru": "Шин рамён, отварная конина, яйцо пашот, казы, зеленый лук",
+        "en": "Шин рамён, отварная конина, яйцо пашот, казы, зеленый лук",
+        "uz": "Шин рамён, отварная конина, яйцо пашот, казы, зеленый лук"
+      },
+      "price": 68000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/fc536d41-9552-42fd-b83f-94be5d97d769_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4584,
+      "category": "special",
+      "name": {
+        "ru": "Самса бургер",
+        "en": "Самса бургер",
+        "uz": "Самса бургер"
+      },
+      "description": {
+        "ru": "Тесто, говяжье котлета, сыр, томаты, соленые огурцы",
+        "en": "Тесто, говяжье котлета, сыр, томаты, соленые огурцы",
+        "uz": "Тесто, говяжье котлета, сыр, томаты, соленые огурцы"
+      },
+      "price": 55000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/034f7487-23c6-4b82-8351-7d4ea59148e9_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4477,
+      "category": "bar",
+      "name": {
+        "ru": "Фанта",
+        "en": "Фанта",
+        "uz": "Фанта"
+      },
+      "description": {
+        "ru": "0,25л",
+        "en": "0,25л",
+        "uz": "0,25л"
+      },
+      "price": 23000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/1fcfcf8c-071c-4214-b292-e5390ed49ebe_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4478,
+      "category": "bar",
+      "name": {
+        "ru": "Лимонады в ассортименте",
+        "en": "Лимонады в ассортименте",
+        "uz": "Лимонады в ассортименте"
+      },
+      "description": {
+        "ru": "Лимонады в ассортименте",
+        "en": "Лимонады в ассортименте",
+        "uz": "Лимонады в ассортименте"
+      },
+      "price": 110000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/1f8432da-3e7a-4e50-beea-ecf32a877b5b_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4479,
+      "category": "bar",
+      "name": {
+        "ru": "Спрайт",
+        "en": "Спрайт",
+        "uz": "Спрайт"
+      },
+      "description": {
+        "ru": "0,25л",
+        "en": "0,25л",
+        "uz": "0,25л"
+      },
+      "price": 23000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/5bfc5278-d1e7-4df7-9710-59b238f96cdf_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4480,
+      "category": "bar",
+      "name": {
+        "ru": "Кола",
+        "en": "Кола",
+        "uz": "Кола"
+      },
+      "description": {
+        "ru": "0,25л",
+        "en": "0,25л",
+        "uz": "0,25л"
+      },
+      "price": 23000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/04042e6b-aea8-43be-8094-3c78a571a015_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4481,
+      "category": "bar",
+      "name": {
+        "ru": "Соки в ассортименте",
+        "en": "Соки в ассортименте",
+        "uz": "Соки в ассортименте"
+      },
+      "description": {
+        "ru": "1л",
+        "en": "1л",
+        "uz": "1л"
+      },
+      "price": 65000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/fc500b29-4a04-42b5-8556-bafc1ded9549_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4625,
+      "category": "bar",
+      "name": {
+        "ru": "Негрони",
+        "en": "Негрони",
+        "uz": "Негрони"
+      },
+      "description": {
+        "ru": "Классический коктейль, в котором идеально сочетаются джин, красный вермут и Кампари, создавая баланс горечи и сладости.",
+        "en": "Классический коктейль, в котором идеально сочетаются джин, красный вермут и Кампари, создавая баланс горечи и сладости.",
+        "uz": "Классический коктейль, в котором идеально сочетаются джин, красный вермут и Кампари, создавая баланс горечи и сладости."
+      },
+      "price": 127000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/740b302d-4791-4887-a195-270fe9f12813_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4626,
+      "category": "bar",
+      "name": {
+        "ru": "Нью-Йорк Сауэр",
+        "en": "Нью-Йорк Сауэр",
+        "uz": "Нью-Йорк Сауэр"
+      },
+      "description": {
+        "ru": "Изысканный коктейль с бурбоном, лимонным фрешем и нежной пенкой из белка, украшенный слоем красного сухого вина.",
+        "en": "Изысканный коктейль с бурбоном, лимонным фрешем и нежной пенкой из белка, украшенный слоем красного сухого вина.",
+        "uz": "Изысканный коктейль с бурбоном, лимонным фрешем и нежной пенкой из белка, украшенный слоем красного сухого вина."
+      },
+      "price": 112000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/d5892094-f793-4a6f-8c1b-39946ccdacd3_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4627,
+      "category": "bar",
+      "name": {
+        "ru": "White Lady",
+        "en": "White Lady",
+        "uz": "White Lady"
+      },
+      "description": {
+        "ru": "Элегантный коктейль с яркими нотами джина, лимонного фреша и цитрусового ликёра, идеально сбалансированный сладостью сахарного сиропа.",
+        "en": "Элегантный коктейль с яркими нотами джина, лимонного фреша и цитрусового ликёра, идеально сбалансированный сладостью сахарного сиропа.",
+        "uz": "Элегантный коктейль с яркими нотами джина, лимонного фреша и цитрусового ликёра, идеально сбалансированный сладостью сахарного сиропа."
+      },
+      "price": 85000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/5a721287-8f09-42cc-96a9-601f3c65772e_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4629,
+      "category": "bar",
+      "name": {
+        "ru": "Лонг Айленд Айс Ти",
+        "en": "Лонг Айленд Айс Ти",
+        "uz": "Лонг Айленд Айс Ти"
+      },
+      "description": {
+        "ru": "Напиток с ярким и насыщенным вкусом, включающий в себя несколько видов алкоголя и колу. Отличается сбалансированным сочетанием цитрусовых и сладковатых нот.",
+        "en": "Напиток с ярким и насыщенным вкусом, включающий в себя несколько видов алкоголя и колу. Отличается сбалансированным сочетанием цитрусовых и сладковатых нот.",
+        "uz": "Напиток с ярким и насыщенным вкусом, включающий в себя несколько видов алкоголя и колу. Отличается сбалансированным сочетанием цитрусовых и сладковатых нот."
+      },
+      "price": 185000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/b1dc67e9-f610-472a-b6ce-32965c858d1e_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4631,
+      "category": "bar",
+      "name": {
+        "ru": "Джин Тоник",
+        "en": "Джин Тоник",
+        "uz": "Джин Тоник"
+      },
+      "description": {
+        "ru": "Классический коктейль с джином и тоником, освежающий и идеально сбалансированный напиток для любой ситуации.",
+        "en": "Классический коктейль с джином и тоником, освежающий и идеально сбалансированный напиток для любой ситуации.",
+        "uz": "Классический коктейль с джином и тоником, освежающий и идеально сбалансированный напиток для любой ситуации."
+      },
+      "price": 120000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/ea7f2a3c-03e7-48b3-a2c2-f27f610bcb71_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4632,
+      "category": "bar",
+      "name": {
+        "ru": "Кампари Спритц",
+        "en": "Кампари Спритц",
+        "uz": "Кампари Спритц"
+      },
+      "description": {
+        "ru": "Яркий коктейль с Кампари, шампанским и содовой, который подарит незабываемый вкус и ощущение праздника.",
+        "en": "Яркий коктейль с Кампари, шампанским и содовой, который подарит незабываемый вкус и ощущение праздника.",
+        "uz": "Яркий коктейль с Кампари, шампанским и содовой, который подарит незабываемый вкус и ощущение праздника."
+      },
+      "price": 152000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/2eeed95e-00f8-4734-80b1-087bf5351362_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4633,
+      "category": "bar",
+      "name": {
+        "ru": "Апероль Спритц",
+        "en": "Апероль Спритц",
+        "uz": "Апероль Спритц"
+      },
+      "description": {
+        "ru": "Освежающий коктейль с ярким вкусом апельсина, лёгким шампанским и немного горечи от содовой.",
+        "en": "Освежающий коктейль с ярким вкусом апельсина, лёгким шампанским и немного горечи от содовой.",
+        "uz": "Освежающий коктейль с ярким вкусом апельсина, лёгким шампанским и немного горечи от содовой."
+      },
+      "price": 152000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/b357f67f-e3cd-44e4-9e62-cd9b10dc33a9_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4634,
+      "category": "bar",
+      "name": {
+        "ru": "Кампари Спритц",
+        "en": "Кампари Спритц",
+        "uz": "Кампари Спритц"
+      },
+      "description": {
+        "ru": "Яркий и освежающий коктейль с Кампари, шампанским и содовой, идеально подходящий для летних вечеров.",
+        "en": "Яркий и освежающий коктейль с Кампари, шампанским и содовой, идеально подходящий для летних вечеров.",
+        "uz": "Яркий и освежающий коктейль с Кампари, шампанским и содовой, идеально подходящий для летних вечеров."
+      },
+      "price": 152000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/df03f4d8-3c7d-4a90-9d0d-1bd41513de8b_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4635,
+      "category": "bar",
+      "name": {
+        "ru": "Кир Рояль",
+        "en": "Кир Рояль",
+        "uz": "Кир Рояль"
+      },
+      "description": {
+        "ru": "Изысканный коктейль на основе шампанского с нотками черной смородины и вишневого акцента.",
+        "en": "Изысканный коктейль на основе шампанского с нотками черной смородины и вишневого акцента.",
+        "uz": "Изысканный коктейль на основе шампанского с нотками черной смородины и вишневого акцента."
+      },
+      "price": 70000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/28d80f0f-0d94-44f7-b011-bcf22d9e8629_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4636,
+      "category": "bar",
+      "name": {
+        "ru": "Опухоль мозга",
+        "en": "Опухоль мозга",
+        "uz": "Опухоль мозга"
+      },
+      "description": {
+        "ru": "Необычный коктейль с гармонией сладких и крепких вкусов: самбука, белый вермут и бейлис, дополненные ярким акцентом сиропа гренадин.",
+        "en": "Необычный коктейль с гармонией сладких и крепких вкусов: самбука, белый вермут и бейлис, дополненные ярким акцентом сиропа гренадин.",
+        "uz": "Необычный коктейль с гармонией сладких и крепких вкусов: самбука, белый вермут и бейлис, дополненные ярким акцентом сиропа гренадин."
+      },
+      "price": 60000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/2a633f00-a2e6-463a-b214-25144f852d2a_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4637,
+      "category": "bar",
+      "name": {
+        "ru": "Б-52",
+        "en": "Б-52",
+        "uz": "Б-52"
+      },
+      "description": {
+        "ru": "Классический коктейль в слоях: кофейный ликер, бейлис и трипл сек, который радует глаз и вкус.",
+        "en": "Классический коктейль в слоях: кофейный ликер, бейлис и трипл сек, который радует глаз и вкус.",
+        "uz": "Классический коктейль в слоях: кофейный ликер, бейлис и трипл сек, который радует глаз и вкус."
+      },
+      "price": 102000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/3376bcd6-78a8-4795-9fa7-ab891282d376_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4638,
+      "category": "bar",
+      "name": {
+        "ru": "Ирландское яблоко",
+        "en": "Ирландское яблоко",
+        "uz": "Ирландское яблоко"
+      },
+      "description": {
+        "ru": "Изысканное сочетание яблочного сока и ванильного сиропа, создающее легкий и освежающий напиток с уникальным вкусом.",
+        "en": "Изысканное сочетание яблочного сока и ванильного сиропа, создающее легкий и освежающий напиток с уникальным вкусом.",
+        "uz": "Изысканное сочетание яблочного сока и ванильного сиропа, создающее легкий и освежающий напиток с уникальным вкусом."
+      },
+      "price": 112000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/0210ceaf-72e7-4858-bda3-8dc51ea2a1a8_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 869,
+      "category": "new",
+      "name": {
+        "ru": "Пиде с мясом",
+        "en": "Пиде с мясом",
+        "uz": "Пиде с мясом"
+      },
+      "description": {
+        "ru": "Хрустящее тесто, сочный фарш с восточными специями и расплавленный сыр. Подается с рукколой и долькой лимона для свежего акцента.",
+        "en": "Хрустящее тесто, сочный фарш с восточными специями и расплавленный сыр. Подается с рукколой и долькой лимона для свежего акцента.",
+        "uz": "Хрустящее тесто, сочный фарш с восточными специями и расплавленный сыр. Подается с рукколой и долькой лимона для свежего акцента."
+      },
+      "price": 106000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/b0464cb5-e4f4-4422-8d89-6c252c8b2cdb_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4616,
+      "category": "new",
+      "name": {
+        "ru": "Салат с хумусом и бастурмой",
+        "en": "Салат с хумусом и бастурмой",
+        "uz": "Салат с хумусом и бастурмой"
+      },
+      "description": {
+        "ru": "Пикантная бастурма, нежный хумус, свежая руккола и томаты черри под бальзамическим кремом — яркий вкус восточных традиций в каждом кусочке.",
+        "en": "Пикантная бастурма, нежный хумус, свежая руккола и томаты черри под бальзамическим кремом — яркий вкус восточных традиций в каждом кусочке.",
+        "uz": "Пикантная бастурма, нежный хумус, свежая руккола и томаты черри под бальзамическим кремом — яркий вкус восточных традиций в каждом кусочке."
+      },
+      "price": 95000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/b05c7499-8d0f-408f-86f8-bc83aad6a84f_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4617,
+      "category": "new",
+      "name": {
+        "ru": "Салат с цыпленком и рукколой",
+        "en": "Салат с цыпленком и рукколой",
+        "uz": "Салат с цыпленком и рукколой"
+      },
+      "description": {
+        "ru": "Сочный цыпленок, свежая руккола, нежное авокадо и хрустящие огурцы под соусом гамадари. Дополнен арахисом и кешью для яркого восточного вкуса.",
+        "en": "Сочный цыпленок, свежая руккола, нежное авокадо и хрустящие огурцы под соусом гамадари. Дополнен арахисом и кешью для яркого восточного вкуса.",
+        "uz": "Сочный цыпленок, свежая руккола, нежное авокадо и хрустящие огурцы под соусом гамадари. Дополнен арахисом и кешью для яркого восточного вкуса."
+      },
+      "price": 90000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/9f520ddd-028b-4088-be53-13a45a22ec8b_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4619,
+      "category": "new",
+      "name": {
+        "ru": "Салат Чобан",
+        "en": "Салат Чобан",
+        "uz": "Салат Чобан"
+      },
+      "description": {
+        "ru": "Свежие помидоры, огурцы, цицак и репчатый лук, заправленные лимонным соком и оливковым маслом. Петрушка, соль и черный перец подчеркивают простоту и насыщенность вкуса.",
+        "en": "Свежие помидоры, огурцы, цицак и репчатый лук, заправленные лимонным соком и оливковым маслом. Петрушка, соль и черный перец подчеркивают простоту и насыщенность вкуса.",
+        "uz": "Свежие помидоры, огурцы, цицак и репчатый лук, заправленные лимонным соком и оливковым маслом. Петрушка, соль и черный перец подчеркивают простоту и насыщенность вкуса."
+      },
+      "price": 40000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/4fbb0980-1a8e-4d3b-bf61-7271cc6bb0a8_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4620,
+      "category": "new",
+      "name": {
+        "ru": "Пиде с кониной",
+        "en": "Пиде с кониной",
+        "uz": "Пиде с кониной"
+      },
+      "description": {
+        "ru": "Тонкое хрустящее тесто, нежное мясо для бешбармака, ароматное казы и расплавленный сыр — классика восточного вкуса в каждой порции.",
+        "en": "Тонкое хрустящее тесто, нежное мясо для бешбармака, ароматное казы и расплавленный сыр — классика восточного вкуса в каждой порции.",
+        "uz": "Тонкое хрустящее тесто, нежное мясо для бешбармака, ароматное казы и расплавленный сыр — классика восточного вкуса в каждой порции."
+      },
+      "price": 130000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/ffbbb693-1289-4698-95a2-04664fb4b392_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4621,
+      "category": "new",
+      "name": {
+        "ru": "Шах Пиде",
+        "en": "Шах Пиде",
+        "uz": "Шах Пиде"
+      },
+      "description": {
+        "ru": "Хрустящее тесто для пиде, расплавленный сыр и нежная тушёная качалка — королевское сочетание вкусов для истинных гурманов.",
+        "en": "Хрустящее тесто для пиде, расплавленный сыр и нежная тушёная качалка — королевское сочетание вкусов для истинных гурманов.",
+        "uz": "Хрустящее тесто для пиде, расплавленный сыр и нежная тушёная качалка — королевское сочетание вкусов для истинных гурманов."
+      },
+      "price": 105000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/ae422865-58c9-4e5a-825f-1a3035ad172d_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4622,
+      "category": "new",
+      "name": {
+        "ru": "Пиде с суджуком",
+        "en": "Пиде с суджуком",
+        "uz": "Пиде с суджуком"
+      },
+      "description": {
+        "ru": "Традиционное пиде с хрустящим тестом, расплавленным сыром и ароматным суджуком — сытное и аппетитное блюдо с ярким восточным вкусом.",
+        "en": "Традиционное пиде с хрустящим тестом, расплавленным сыром и ароматным суджуком — сытное и аппетитное блюдо с ярким восточным вкусом.",
+        "uz": "Традиционное пиде с хрустящим тестом, расплавленным сыром и ароматным суджуком — сытное и аппетитное блюдо с ярким восточным вкусом."
+      },
+      "price": 190000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/b03d7cb2-9aeb-443c-86d5-eafbf1cfdb01_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4623,
+      "category": "new",
+      "name": {
+        "ru": "Кулчитой",
+        "en": "Кулчитой",
+        "uz": "Кулчитой"
+      },
+      "description": {
+        "ru": "Нежное тесто, как на бешбармак, конина, казы и вяленые томаты, обжаренные с луком на сливочном масле.",
+        "en": "Нежное тесто, как на бешбармак, конина, казы и вяленые томаты, обжаренные с луком на сливочном масле.",
+        "uz": "Нежное тесто, как на бешбармак, конина, казы и вяленые томаты, обжаренные с луком на сливочном масле."
+      },
+      "price": 80000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/a909ed94-5fcb-4070-b018-16d43cf63848_large.jpg",
+      "featured": false
+    },
+    {
+      "id": 4624,
+      "category": "new",
+      "name": {
+        "ru": "Запечённый хумус с суджуком",
+        "en": "Запечённый хумус с суджуком",
+        "uz": "Запечённый хумус с суджуком"
+      },
+      "description": {
+        "ru": "Нежный хумус, запечённый с ароматным суджуком, сливочным маслом и пикантной острой паприкой. Идеальное сочетание вкуса и текстуры для истинных гурманов.",
+        "en": "Нежный хумус, запечённый с ароматным суджуком, сливочным маслом и пикантной острой паприкой. Идеальное сочетание вкуса и текстуры для истинных гурманов.",
+        "uz": "Нежный хумус, запечённый с ароматным суджуком, сливочным маслом и пикантной острой паприкой. Идеальное сочетание вкуса и текстуры для истинных гурманов."
+      },
+      "price": 170000,
+      "image": "https://khan-chapan.qr-menu.uz/uploads/restorants/138b46ed-870a-42da-9492-d66a41fa9d79_large.jpg",
+      "featured": false
+    }
+  ]
+}

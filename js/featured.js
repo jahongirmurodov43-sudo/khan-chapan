@@ -4,9 +4,10 @@
   try {
     const res    = await fetch('data/menu.json');
     if (!res.ok) return;
-    const result = await res.json();
+    const data = await res.json();
+    const result = data.items || data;
 
-    const featured = result.filter(item => item.available && item.featured).slice(0, 3);
+    const featured = result.filter(item => item.featured).slice(0, 3);
     const grid     = document.getElementById('featured-dishes');
     if (!grid || !featured.length) return;
 
