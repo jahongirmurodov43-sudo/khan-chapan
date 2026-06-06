@@ -5,7 +5,7 @@ const I18N = (() => {
   let strings = {};
 
   async function load(lang) {
-    const res = await fetch(`/locales/${lang}.json?v=2`);
+    const res = await fetch(`/locales/${lang}.json?v=3`);
     if (!res.ok) throw new Error(`Failed to load locale: ${lang}`);
     strings = await res.json();
     current = lang;
