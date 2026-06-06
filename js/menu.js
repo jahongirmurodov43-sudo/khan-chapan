@@ -19,11 +19,35 @@ const MENU = (() => {
       </div>`;
   }
 
+  let _grouped = {};
+  let _categories = [];
+  let _activeCat = null;
+
+  function renderTab(cat) {
+    const lang   = I18N.current();
+    const grid   = document.getElementById('menu-grid');
+    const tabsEl = document.getElementById('menu-tabs');
+    if (!grid) return;
+    _activeCat = cat;
+    grid.innerHTML = (_grouped[cat] || []).map(item => renderCard(item, lang)).join('');
+    if (window.animationsObserve) window.animationsObserve();
+    document.querySelectorAll('.tab-btn').forEach(b => {
+      b.classList.toggle('tab--active', b.dataset.cat === cat);
+    });
+    // Update tab labels for current language
+    tabsEl.querySelectorAll('.tab-btn').forEach(b => {
+      const c = _categories.find(x => x.slug === b.dataset.cat);
+      if (c) b.textContent = c.name[lang] || c.name.ru;
+    });
+  }
+
+  function refresh() {
+    if (_activeCat) renderTab(_activeCat);
+  }
+
   async function init() {
-    const lang    = localStorage.getItem('lang') || 'ru';
     const loading = document.getElementById('menu-loading');
     const error   = document.getElementById('menu-error');
-    const grid    = document.getElementById('menu-grid');
     const tabsEl  = document.getElementById('menu-tabs');
 
     try {
@@ -33,35 +57,26 @@ const MENU = (() => {
 
       loading.style.display = 'none';
 
-      const categories = data.categories || [];
-      const items      = data.items || [];
+      _categories = data.categories || [];
+      const items = data.items || [];
 
-      const grouped = {};
-      categories.forEach(c => { grouped[c.slug] = []; });
+      _categories.forEach(c => { _grouped[c.slug] = []; });
       items.forEach(item => {
-        if (grouped[item.category]) grouped[item.category].push(item);
+        if (_grouped[item.category]) _grouped[item.category].push(item);
       });
 
-      // Build tabs dynamically
-      tabsEl.innerHTML = categories
-        .filter(c => grouped[c.slug].length > 0)
+      const lang = I18N.current();
+      tabsEl.innerHTML = _categories
+        .filter(c => _grouped[c.slug].length > 0)
         .map(c => `<button class="tab-btn" data-cat="${c.slug}">${c.name[lang] || c.name.ru}</button>`)
         .join('');
-
-      function renderTab(cat) {
-        grid.innerHTML = (grouped[cat] || []).map(item => renderCard(item, lang)).join('');
-        if (window.animationsObserve) window.animationsObserve();
-        document.querySelectorAll('.tab-btn').forEach(b => {
-          b.classList.toggle('tab--active', b.dataset.cat === cat);
-        });
-      }
 
       tabsEl.addEventListener('click', e => {
         const btn = e.target.closest('.tab-btn');
         if (btn) renderTab(btn.dataset.cat);
       });
 
-      const firstCat = categories.find(c => grouped[c.slug]?.length > 0);
+      const firstCat = _categories.find(c => _grouped[c.slug]?.length > 0);
       if (firstCat) renderTab(firstCat.slug);
 
     } catch (e) {
@@ -71,5 +86,5 @@ const MENU = (() => {
     }
   }
 
-  return { init };
+  return { init, refresh };
 })();

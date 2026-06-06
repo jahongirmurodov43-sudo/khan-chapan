@@ -12,6 +12,7 @@ const I18N = (() => {
     localStorage.setItem('lang', lang);
     apply();
     updateSwitcher();
+    if (typeof MENU !== 'undefined' && MENU.refresh) MENU.refresh();
   }
 
   function get(key) {
