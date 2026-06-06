@@ -11,7 +11,7 @@
     "reserve": "Stol band qilish"
   },
   "footer": {
-    "address": "Usta Olim yo'lagi 5, Sebzar, Toshkent",
+    "address": "Usta Olim tupik, 5 (Riviera Mall yaqinida), Toshkent",
     "rights": "Barcha huquqlar himoyalangan",
     "follow": "Bizni kuzating"
   },
@@ -88,7 +88,7 @@
     "heading": "Bizni toping",
     "hours_heading": "Ish vaqti",
     "hours": {
-      "weekdays": "Du – Ju: 11:00 – 23:00",
+      "weekdays": "Du – Ya: 12:00 – 23:00",
       "weekends": "Sh – Ya: 10:00 – 00:00"
     },
     "social_heading": "Bizni kuzating",

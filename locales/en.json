@@ -11,7 +11,7 @@
     "reserve": "Reserve a Table"
   },
   "footer": {
-    "address": "Usta Olim Passage 5, Sebzar, Tashkent",
+    "address": "Tupik Usta Olim, 5 (near Riviera Mall), Tashkent",
     "rights": "All rights reserved",
     "follow": "Follow us"
   },
@@ -88,7 +88,7 @@
     "heading": "Find Us",
     "hours_heading": "Opening Hours",
     "hours": {
-      "weekdays": "Monday – Friday: 11:00 – 23:00",
+      "weekdays": "Monday – Sunday: 12:00 – 23:00",
       "weekends": "Saturday – Sunday: 10:00 – 00:00"
     },
     "social_heading": "Follow the Legend",
