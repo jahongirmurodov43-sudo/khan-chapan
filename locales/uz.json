@@ -79,7 +79,15 @@
   },
   "loyalty": {
     "heading": "Khan Tangalari",
-    "sub": "Har bir tashrif bilan bonus to'plang"
+    "sub": "Har bir tashrif bilan bonus to'plang",
+    "step1_title": "Tashrif buyuring va taomlaning",
+    "step1_desc": "Khan Chapanga har bir tashrif sizga Khan Coins keltiradi. Qancha ko'p taomlansangiz, shuncha ko'p ishlaysiz.",
+    "step2_title": "Tangalarni yig'ing",
+    "step2_desc": "Tangalar Telegram hisobingizda avtomatik ravishda to'planadi. Balansingizni istalgan vaqtda kuzating.",
+    "step3_title": "Mukofotlarni oling",
+    "step3_desc": "Tangalaringizni chegirmalar, bepul taomlar yoki Khan Chapandagi eksklyuziv tajribalar uchun ishlating.",
+    "telegram_text": "Tangalaringizni boshqaring va Telegram orqali balansni tekshiring",
+    "telegram_btn": "Telegramni ochish"
   },
   "careers": {
     "heading": "Afsonaga qo'shiling",

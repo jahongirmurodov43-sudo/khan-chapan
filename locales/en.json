@@ -79,7 +79,15 @@
   },
   "loyalty": {
     "heading": "Khan Coins",
-    "sub": "Earn rewards with every visit"
+    "sub": "Earn rewards with every visit",
+    "step1_title": "Visit & Dine",
+    "step1_desc": "Every visit to Khan Chapan earns you Khan Coins. The more you dine, the more you earn.",
+    "step2_title": "Accumulate Coins",
+    "step2_desc": "Coins accumulate in your Telegram account automatically. Track your balance anytime.",
+    "step3_title": "Redeem Rewards",
+    "step3_desc": "Use your coins for discounts, complimentary dishes, or exclusive experiences at Khan Chapan.",
+    "telegram_text": "Manage your coins and check your balance via Telegram",
+    "telegram_btn": "Open Telegram"
   },
   "careers": {
     "heading": "Join the Legend",
