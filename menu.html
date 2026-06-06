@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | Khan Chapan</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="reveal" data-i18n="menu.heading" style="color:var(--gold)"></h1>
+      <p class="reveal reveal-delay-1" data-i18n="menu.sub" style="font-family:var(--font-display);font-style:italic"></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="tabs" id="menu-tabs">
+        <button class="tab-btn" data-cat="starters" data-i18n="menu.categories.starters"></button>
+        <button class="tab-btn" data-cat="mains"    data-i18n="menu.categories.mains"></button>
+        <button class="tab-btn" data-cat="soups"    data-i18n="menu.categories.soups"></button>
+        <button class="tab-btn" data-cat="grills"   data-i18n="menu.categories.grills"></button>
+        <button class="tab-btn" data-cat="drinks"   data-i18n="menu.categories.drinks"></button>
+        <button class="tab-btn" data-cat="desserts" data-i18n="menu.categories.desserts"></button>
+      </div>
+      <p id="menu-loading" style="color:var(--cream-dim);text-align:center" data-i18n="menu.loading"></p>
+      <p id="menu-error"   style="display:none;color:var(--crimson);text-align:center" data-i18n="menu.error"></p>
+      <div class="grid-3" id="menu-grid"></div>
+    </div>
+  </section>
+
+  <script src="js/nav.js"></script>
+  <script src="js/footer.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/menu.js"></script>
+  <script>
+    I18N.init();
+    MENU.init();
+  </script>
+
+  <style>
+    .page-hero {
+      min-height: 40vh;
+      display: flex;
+      align-items: flex-end;
+      padding-bottom: 4rem;
+      background: linear-gradient(to bottom, var(--bg) 0%, var(--surface) 100%);
+      padding-top: 8rem;
+    }
+    .page-hero p { font-family: var(--font-display); font-style: italic; margin-top: 1rem; }
+  </style>
+</body>
+</html>

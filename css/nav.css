@@ -1,0 +1,105 @@
+.nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 1000;
+  padding: 1.5rem 0;
+  transition: background var(--transition), padding var(--transition);
+}
+.nav--scrolled {
+  background: var(--surface);
+  padding: 1rem 0;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.5);
+}
+.nav__inner {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.nav__logo img { height: 36px; }
+.nav__links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  flex: 1;
+  justify-content: center;
+}
+.nav__links a {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--cream-dim);
+  transition: color var(--transition);
+}
+.nav__links a:hover,
+.nav__link--active { color: var(--gold) !important; }
+.nav__actions {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.lang-switcher {
+  display: flex;
+  gap: 0.25rem;
+}
+.lang-switcher button {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: var(--cream-dim);
+  padding: 0.2rem 0.4rem;
+  border-radius: 2px;
+  transition: color var(--transition);
+}
+.lang-switcher button:hover,
+.lang-switcher button.lang--active { color: var(--gold); }
+.btn {
+  display: inline-block;
+  padding: 0.65rem 1.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border-radius: var(--radius);
+  transition: all var(--transition);
+}
+.btn--gold {
+  background: var(--gold);
+  color: var(--bg);
+}
+.btn--gold:hover { background: var(--cream); }
+.btn--outline {
+  border: 1px solid var(--gold);
+  color: var(--gold);
+}
+.btn--outline:hover { background: var(--gold); color: var(--bg); }
+.nav__burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  padding: 4px;
+}
+.nav__burger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--cream);
+  transition: all var(--transition);
+}
+@media (max-width: 900px) {
+  .nav__burger { display: flex; }
+  .nav__links {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: var(--bg);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    z-index: 999;
+  }
+  .nav__links--open { display: flex; }
+  .nav__links a { font-size: 1.2rem; }
+}

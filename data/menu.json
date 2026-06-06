@@ -1,0 +1,142 @@
+[
+  {
+    "name": { "uz": "Somsa", "ru": "Самса", "en": "Samsa" },
+    "description": { "uz": "Tandirda pishirilgan go'shtli somsa", "ru": "Слоёные пирожки с мясом из тандыра", "en": "Flaky pastry filled with seasoned meat, baked in tandoor" },
+    "category": "starters",
+    "price": 25000,
+    "image": "images/menu/samsa.jpg",
+    "available": true,
+    "featured": false,
+    "order": 1
+  },
+  {
+    "name": { "uz": "Achichuk salati", "ru": "Салат Ачичук", "en": "Achichuk Salad" },
+    "description": { "uz": "Pomidor, piyoz va ziravor bilan tayyorlangan salat", "ru": "Свежие томаты и лук со специями", "en": "Fresh tomatoes and onion with spices" },
+    "category": "starters",
+    "price": 18000,
+    "image": "images/menu/achichuk.jpg",
+    "available": true,
+    "featured": false,
+    "order": 2
+  },
+  {
+    "name": { "uz": "Beshbarmak", "ru": "Бешбармак", "en": "Beshbarmak" },
+    "description": { "uz": "Qo'y go'shti va qo'l bilan yeyiladigan milliy taom", "ru": "Национальное блюдо из баранины с тестом, едят руками", "en": "Traditional lamb dish with hand-rolled pasta — eaten with the hands" },
+    "category": "mains",
+    "price": 95000,
+    "image": "images/menu/beshbarmak.jpg",
+    "available": true,
+    "featured": true,
+    "order": 1
+  },
+  {
+    "name": { "uz": "Osh (Palov)", "ru": "Плов", "en": "Plov (Uzbek Pilaf)" },
+    "description": { "uz": "Sifatli guruch, sabzi va go'sht bilan pishirilgan palov", "ru": "Рис с морковью, бараниной и специями, приготовленный в казане", "en": "Fragrant rice with lamb, carrots and spices, cooked in a kazan" },
+    "category": "mains",
+    "price": 65000,
+    "image": "images/menu/plov.jpg",
+    "available": true,
+    "featured": true,
+    "order": 2
+  },
+  {
+    "name": { "uz": "Lag'mon", "ru": "Лагман", "en": "Lagman" },
+    "description": { "uz": "Qo'lda cho'zilgan makaron va go'sht bilan sho'rva", "ru": "Суп с тянутой лапшой, мясом и овощами", "en": "Hand-pulled noodle soup with meat and vegetables" },
+    "category": "mains",
+    "price": 55000,
+    "image": "images/menu/lagman.jpg",
+    "available": true,
+    "featured": true,
+    "order": 3
+  },
+  {
+    "name": { "uz": "Mastava", "ru": "Мастава", "en": "Mastava" },
+    "description": { "uz": "Guruch va go'sht bilan qalin sho'rva", "ru": "Густой суп с рисом и бараниной", "en": "Hearty rice and lamb soup with vegetables" },
+    "category": "soups",
+    "price": 38000,
+    "image": "images/menu/mastava.jpg",
+    "available": true,
+    "featured": false,
+    "order": 1
+  },
+  {
+    "name": { "uz": "Shurva", "ru": "Шурпа", "en": "Shurpa" },
+    "description": { "uz": "Qo'y go'shti va sabzavotli an'anaviy sho'rva", "ru": "Традиционный суп из баранины с крупными овощами", "en": "Traditional lamb soup with whole vegetables and herbs" },
+    "category": "soups",
+    "price": 42000,
+    "image": "images/menu/shurpa.jpg",
+    "available": true,
+    "featured": false,
+    "order": 2
+  },
+  {
+    "name": { "uz": "Jigar kabob", "ru": "Печёночный кебаб", "en": "Liver Kebab" },
+    "description": { "uz": "Ko'mirda pishirilgan jigar kabob", "ru": "Кебаб из говяжьей печени на углях", "en": "Beef liver kebab grilled over charcoal" },
+    "category": "grills",
+    "price": 72000,
+    "image": "images/menu/jigar-kabob.jpg",
+    "available": true,
+    "featured": false,
+    "order": 1
+  },
+  {
+    "name": { "uz": "Qo'y kabob", "ru": "Шашлык из баранины", "en": "Lamb Shashlik" },
+    "description": { "uz": "Ko'mirda pishirilgan qo'y go'shti", "ru": "Сочный шашлык из баранины на углях", "en": "Juicy lamb skewers grilled over charcoal" },
+    "category": "grills",
+    "price": 85000,
+    "image": "images/menu/lamb-shashlik.jpg",
+    "available": true,
+    "featured": false,
+    "order": 2
+  },
+  {
+    "name": { "uz": "Ko'k choy", "ru": "Зелёный чай", "en": "Green Tea" },
+    "description": { "uz": "An'anaviy o'zbek yashil choy", "ru": "Традиционный узбекский зелёный чай", "en": "Traditional Uzbek green tea" },
+    "category": "drinks",
+    "price": 12000,
+    "image": "images/menu/green-tea.jpg",
+    "available": true,
+    "featured": false,
+    "order": 1
+  },
+  {
+    "name": { "uz": "Qora choy", "ru": "Чёрный чай", "en": "Black Tea" },
+    "description": { "uz": "Kuchli qora choy", "ru": "Крепкий чёрный чай", "en": "Strong black tea" },
+    "category": "drinks",
+    "price": 12000,
+    "image": "images/menu/black-tea.jpg",
+    "available": true,
+    "featured": false,
+    "order": 2
+  },
+  {
+    "name": { "uz": "Limonad", "ru": "Лимонад", "en": "Lemonade" },
+    "description": { "uz": "Uy limonadimiz", "ru": "Домашний лимонад", "en": "House-made lemonade" },
+    "category": "drinks",
+    "price": 22000,
+    "image": "images/menu/lemonade.jpg",
+    "available": true,
+    "featured": false,
+    "order": 3
+  },
+  {
+    "name": { "uz": "Nisholda", "ru": "Нишалло", "en": "Nisholda" },
+    "description": { "uz": "Tuxum oqi va shakar bilan tayyorlangan milliy desert", "ru": "Традиционный десерт из взбитых белков с сахаром", "en": "Traditional whipped egg white and sugar dessert" },
+    "category": "desserts",
+    "price": 20000,
+    "image": "images/menu/nisholda.jpg",
+    "available": true,
+    "featured": false,
+    "order": 1
+  },
+  {
+    "name": { "uz": "Halva", "ru": "Халва", "en": "Halva" },
+    "description": { "uz": "Un va yog' bilan tayyorlangan an'anaviy halva", "ru": "Традиционная халва из муки и масла", "en": "Traditional flour and butter halva" },
+    "category": "desserts",
+    "price": 18000,
+    "image": "images/menu/halva.jpg",
+    "available": true,
+    "featured": false,
+    "order": 2
+  }
+]

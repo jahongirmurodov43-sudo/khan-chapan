@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Khan Chapan</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="reveal" data-i18n="contact.heading" style="color:var(--gold)"></h1>
+    </div>
+  </section>
+
+  <div style="width:100%;height:400px">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.058!2d69.2401!3d41.3123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zKhan+Chapan!5e0!3m2!1sen!2suz!4v1"
+      width="100%"
+      height="400"
+      style="border:none;filter:invert(90%) hue-rotate(180deg);display:block"
+      allowfullscreen
+      loading="lazy"
+      title="Khan Chapan on Google Maps"
+    ></iframe>
+  </div>
+
+  <section class="section texture-overlay">
+    <div class="container contact-grid">
+
+      <div class="reveal">
+        <h3 data-i18n="contact.hours_heading" style="color:var(--gold);margin-bottom:1.5rem"></h3>
+        <table class="hours-table">
+          <tbody>
+            <tr><td data-i18n="contact.hours.weekdays"></td></tr>
+            <tr><td data-i18n="contact.hours.weekends"></td></tr>
+          </tbody>
+        </table>
+        <div style="margin-top:2rem">
+          <p>📍 <span data-i18n="footer.address"></span></p>
+          <p style="margin-top:0.5rem">📞 <a href="tel:+998000000000" style="color:var(--gold)">+998 XX XXX XX XX</a></p>
+        </div>
+      </div>
+
+      <div class="reveal reveal-delay-1">
+        <h3 data-i18n="contact.social_heading" style="color:var(--gold);margin-bottom:1.5rem"></h3>
+        <div class="social-links">
+          <a href="https://t.me/khanchapan" target="_blank" rel="noopener">Telegram</a>
+          <a href="https://t.me/khanchapan_channel" target="_blank" rel="noopener">Telegram Channel</a>
+          <a href="https://instagram.com/khanchapan" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://facebook.com/khanchapan" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://tiktok.com/@khanchapan" target="_blank" rel="noopener">TikTok</a>
+          <a href="https://yandex.uz/maps" target="_blank" rel="noopener">Yandex Maps</a>
+          <a href="https://tripadvisor.com" target="_blank" rel="noopener">TripAdvisor</a>
+        </div>
+      </div>
+
+      <div class="reveal reveal-delay-2" id="reserve">
+        <h3 data-i18n="contact.reserve_heading" style="color:var(--gold);margin-bottom:1.5rem"></h3>
+        <a href="https://t.me/khanchapan" class="btn btn--gold" target="_blank" data-i18n="nav.reserve"></a>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="js/nav.js"></script>
+  <script src="js/footer.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/animations.js"></script>
+  <script>I18N.init();</script>
+
+  <style>
+    .page-hero {
+      min-height: 40vh;
+      display: flex;
+      align-items: flex-end;
+      padding-bottom: 4rem;
+      background: linear-gradient(to bottom, var(--bg) 0%, var(--surface) 100%);
+      padding-top: 8rem;
+    }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 3rem;
+    }
+    @media (max-width: 800px) { .contact-grid { grid-template-columns: 1fr; } }
+    .hours-table td {
+      padding: 0.4rem 0;
+      color: var(--cream-dim);
+      font-size: 0.95rem;
+    }
+    .social-links { display: flex; flex-direction: column; gap: 0.75rem; }
+    .social-links a {
+      color: var(--cream-dim);
+      font-size: 0.9rem;
+      letter-spacing: 0.05em;
+      transition: color var(--transition);
+    }
+    .social-links a:hover { color: var(--gold); }
+  </style>
+</body>
+</html>

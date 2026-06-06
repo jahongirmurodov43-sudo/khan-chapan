@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Careers | Khan Chapan</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="reveal" data-i18n="careers.heading" style="color:var(--gold)"></h1>
+      <p class="reveal reveal-delay-1" data-i18n="careers.sub"></p>
+    </div>
+  </section>
+
+  <section class="section texture-overlay">
+    <div class="container" style="max-width:700px;margin:0 auto">
+      <form
+        name="careers"
+        method="POST"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+        class="form reveal"
+        id="careers-form"
+        enctype="multipart/form-data"
+      >
+        <input type="hidden" name="form-name" value="careers">
+        <p style="display:none"><input name="bot-field"></p>
+
+        <div class="form-group">
+          <label data-i18n="careers.form.name"></label>
+          <input type="text" name="name" required data-i18n-placeholder="careers.form.name">
+        </div>
+        <div class="form-group">
+          <label data-i18n="careers.form.email"></label>
+          <input type="email" name="email" required data-i18n-placeholder="careers.form.email">
+        </div>
+        <div class="form-group">
+          <label data-i18n="careers.form.position"></label>
+          <input type="text" name="position" required data-i18n-placeholder="careers.form.position">
+        </div>
+        <div class="form-group">
+          <label data-i18n="careers.form.cv"></label>
+          <input type="file" name="cv" accept=".pdf,.doc,.docx" style="color:var(--cream-dim);padding:0.5rem 0">
+        </div>
+        <div class="form-group">
+          <label data-i18n="careers.form.message"></label>
+          <textarea name="message" rows="5" data-i18n-placeholder="careers.form.message"></textarea>
+        </div>
+        <button type="submit" class="btn btn--gold" data-i18n="careers.form.submit"></button>
+      </form>
+      <div class="form-success" id="careers-success">
+        <p data-i18n="careers.form.success"></p>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/nav.js"></script>
+  <script src="js/footer.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/animations.js"></script>
+  <script>
+    I18N.init();
+    if (window.location.search.includes('success')) {
+      document.getElementById('careers-form').style.display = 'none';
+      document.getElementById('careers-success').style.display = 'block';
+    }
+  </script>
+
+  <style>
+    .page-hero {
+      min-height: 40vh;
+      display: flex;
+      align-items: flex-end;
+      padding-bottom: 4rem;
+      background: linear-gradient(to bottom, var(--bg) 0%, var(--surface) 100%);
+      padding-top: 8rem;
+    }
+    .page-hero p { font-family: var(--font-display); font-style: italic; margin-top: 1rem; }
+  </style>
+</body>
+</html>

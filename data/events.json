@@ -1,0 +1,15 @@
+[
+  {
+    "title": { "uz": "Milliy taomlar kechasi", "ru": "Вечер национальной кухни", "en": "Traditional Cuisine Evening" },
+    "description": { "uz": "Bir kechada barcha milliy taomlarimizni tatib ko'ring", "ru": "Дегустация всех наших национальных блюд за один вечер", "en": "A tasting evening featuring all our signature national dishes" },
+    "date": "2026-07-20",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "type": "special",
+    "status": "upcoming",
+    "coverImage": "images/events/event-tasting.jpg",
+    "photos": [],
+    "featured": true,
+    "bookingLink": "https://t.me/khanchapan"
+  }
+]

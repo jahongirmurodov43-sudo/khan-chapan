@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Tour | Khan Chapan</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+  <section class="page-hero" style="min-height:35vh;padding-top:8rem;padding-bottom:3rem;background:var(--bg)">
+    <div class="container">
+      <h1 class="reveal" data-i18n="tour.heading" style="color:var(--gold)"></h1>
+      <p class="reveal reveal-delay-1" data-i18n="tour.sub"></p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div style="width:100%">
+      <iframe
+        src="REPLACE_WITH_3D_TOUR_URL"
+        width="100%"
+        height="600"
+        frameborder="0"
+        allowfullscreen
+        allow="xr-spatial-tracking"
+        style="display:block;border:none"
+        title="Khan Chapan 3D Tour"
+      ></iframe>
+    </div>
+  </section>
+
+  <script src="js/nav.js"></script>
+  <script src="js/footer.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/animations.js"></script>
+  <script>I18N.init();</script>
+
+  <style>
+    .page-hero {
+      min-height: 35vh;
+      display: flex;
+      align-items: flex-end;
+      padding-bottom: 3rem;
+      padding-top: 8rem;
+    }
+    .page-hero h1 { color: var(--gold); }
+    .page-hero p { font-family: var(--font-display); font-style: italic; margin-top: 1rem; }
+  </style>
+</body>
+</html>

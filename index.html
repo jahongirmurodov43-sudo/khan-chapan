@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Khan Chapan — Eastern cuisine restaurant in Tashkent. Beshbarmak, grills, and Uzbek heritage.">
+  <title>Khan Chapan | Discover The Legend Within</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <!-- ── HERO ───────────────────────────────────── -->
+  <section class="hero texture-overlay" id="hero">
+    <div class="hero__bg">
+      <img src="images/hero-poster.jpg" alt="Khan Chapan restaurant interior">
+    </div>
+    <div class="hero__overlay"></div>
+    <canvas id="particles-canvas"></canvas>
+    <div class="hero__content">
+      <div class="hero__tag">Tashkent, Uzbekistan</div>
+      <h1 class="hero__title" data-i18n="home.hero_tag">Discover The Legend Within</h1>
+      <p class="hero__sub" data-i18n="home.hero_sub"></p>
+      <a href="contact.html#reserve" class="btn btn--gold" data-i18n="home.hero_cta"></a>
+    </div>
+    <div class="hero__scroll-hint">↓</div>
+  </section>
+
+  <!-- ── OUR LEGEND TEASER ───────────────────────── -->
+  <section class="section texture-overlay">
+    <div class="container">
+      <div class="divider"><span class="divider-ornament">✦</span></div>
+      <div class="story-teaser reveal">
+        <h2 data-i18n="home.story_heading"></h2>
+        <p data-i18n="home.story_text"></p>
+        <a href="story.html" class="btn btn--outline" style="margin-top:2rem" data-i18n="home.story_cta"></a>
+      </div>
+      <div class="divider" style="margin-top:4rem"><span class="divider-ornament">✦</span></div>
+    </div>
+  </section>
+
+  <!-- ── SIGNATURE DISHES ───────────────────────── -->
+  <section class="section section--surface">
+    <div class="container">
+      <div class="section-heading reveal">
+        <h2 data-i18n="home.dishes_heading"></h2>
+      </div>
+      <div class="grid-3" id="featured-dishes"></div>
+      <div style="text-align:center;margin-top:3rem" class="reveal">
+        <a href="menu.html" class="btn btn--outline" data-i18n="nav.menu"></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA BANNER ─────────────────────────────── -->
+  <section class="section section--crimson">
+    <div class="container" style="text-align:center">
+      <h2 class="reveal" data-i18n="home.cta_heading" style="color:var(--cream)"></h2>
+      <p class="reveal reveal-delay-1" data-i18n="home.cta_sub" style="margin:1rem auto 2rem"></p>
+      <a href="contact.html#reserve" class="btn btn--gold reveal reveal-delay-2" data-i18n="home.cta_btn"></a>
+    </div>
+  </section>
+
+  <script src="js/nav.js"></script>
+  <script src="js/footer.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/featured.js"></script>
+  <script>I18N.init();</script>
+
+  <style>
+    .hero__scroll-hint {
+      position: absolute;
+      bottom: 2rem;
+      left: 50%;
+      transform: translateX(-50%);
+      color: var(--gold);
+      font-size: 1.5rem;
+      animation: bounce 2s infinite;
+      z-index: 2;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translateX(-50%) translateY(0); }
+      50% { transform: translateX(-50%) translateY(-10px); }
+    }
+    .story-teaser { max-width: 700px; }
+    .story-teaser h2 { margin-bottom: 1.5rem; }
+  </style>
+</body>
+</html>

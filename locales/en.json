@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "story": "Our Story",
+    "events": "Events",
+    "tour": "3D Tour",
+    "loyalty": "Coins",
+    "careers": "Careers",
+    "contact": "Contact",
+    "reserve": "Reserve a Table"
+  },
+  "footer": {
+    "address": "Usta Olim Passage 5, Sebzar, Tashkent",
+    "rights": "All rights reserved",
+    "follow": "Follow us"
+  },
+  "home": {
+    "hero_tag": "Discover The Legend Within",
+    "hero_sub": "Eastern cuisine rooted in centuries of tradition",
+    "hero_cta": "Reserve a Table",
+    "story_heading": "The Legend",
+    "story_text": "Khan Chapan is more than a restaurant — it is a living chronicle of Uzbek culinary heritage, where every dish carries the weight of history and the warmth of ancestral hands.",
+    "story_cta": "Read Our Story",
+    "dishes_heading": "Signature Dishes",
+    "cta_heading": "Reserve Your Table Tonight",
+    "cta_sub": "Experience the legend in person",
+    "cta_btn": "Book Now"
+  },
+  "menu": {
+    "heading": "Our Menu",
+    "sub": "Every dish is a chapter in the legend",
+    "loading": "Loading menu...",
+    "error": "Unable to load menu. Please try again later.",
+    "categories": {
+      "starters": "Starters",
+      "mains": "Mains",
+      "soups": "Soups",
+      "grills": "Grills",
+      "drinks": "Drinks",
+      "desserts": "Desserts"
+    }
+  },
+  "story": {
+    "heading": "Our Story",
+    "sub": "A legend written in flavour"
+  },
+  "events": {
+    "heading": "Events & Gallery",
+    "upcoming_heading": "Upcoming Events",
+    "gallery_heading": "Gallery",
+    "no_upcoming": "No upcoming events at this time.",
+    "book_event": "Book This Event",
+    "private_heading": "Host a Private Event",
+    "private_sub": "Bring the legend to your celebration",
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "date": "Preferred Date",
+      "guests": "Number of Guests",
+      "message": "Tell us about your event",
+      "submit": "Send Inquiry",
+      "success": "Thank you! We will be in touch shortly."
+    }
+  },
+  "tour": {
+    "heading": "3D Tour",
+    "sub": "Explore Khan Chapan before you arrive"
+  },
+  "loyalty": {
+    "heading": "Khan Coins",
+    "sub": "Earn rewards with every visit"
+  },
+  "careers": {
+    "heading": "Join the Legend",
+    "sub": "We are always looking for passionate people",
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "position": "Position Applying For",
+      "message": "Tell us about yourself",
+      "cv": "Attach your CV",
+      "submit": "Apply Now",
+      "success": "Application received. We will contact you soon."
+    }
+  },
+  "contact": {
+    "heading": "Find Us",
+    "hours_heading": "Opening Hours",
+    "hours": {
+      "weekdays": "Monday – Friday: 11:00 – 23:00",
+      "weekends": "Saturday – Sunday: 10:00 – 00:00"
+    },
+    "social_heading": "Follow the Legend",
+    "reserve_heading": "Reserve a Table"
+  }
+}

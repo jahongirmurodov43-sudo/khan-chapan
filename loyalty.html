@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khan Coins | Khan Chapan</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="reveal" data-i18n="loyalty.heading" style="color:var(--gold)"></h1>
+      <p class="reveal reveal-delay-1" data-i18n="loyalty.sub"></p>
+    </div>
+  </section>
+
+  <section class="section texture-overlay">
+    <div class="container" style="max-width:800px;margin:0 auto">
+      <div class="loyalty-steps">
+        <div class="loyalty-step reveal">
+          <div class="loyalty-step__number">01</div>
+          <div>
+            <h3>Visit &amp; Dine</h3>
+            <p>Every visit to Khan Chapan earns you Khan Coins. The more you dine, the more you earn.</p>
+          </div>
+        </div>
+        <div class="loyalty-step reveal reveal-delay-1">
+          <div class="loyalty-step__number">02</div>
+          <div>
+            <h3>Accumulate Coins</h3>
+            <p>Coins accumulate in your Telegram account automatically. Track your balance anytime.</p>
+          </div>
+        </div>
+        <div class="loyalty-step reveal reveal-delay-2">
+          <div class="loyalty-step__number">03</div>
+          <div>
+            <h3>Redeem Rewards</h3>
+            <p>Use your coins for discounts, complimentary dishes, or exclusive experiences at Khan Chapan.</p>
+          </div>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:4rem" class="reveal">
+        <p style="margin-bottom:1.5rem;font-family:var(--font-display);font-style:italic;font-size:1.1rem">
+          Manage your coins and check your balance via Telegram
+        </p>
+        <a href="https://t.me/khanchapan" target="_blank" class="btn btn--gold">Open Telegram</a>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/nav.js"></script>
+  <script src="js/footer.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/animations.js"></script>
+  <script>I18N.init();</script>
+
+  <style>
+    .page-hero {
+      min-height: 40vh;
+      display: flex;
+      align-items: flex-end;
+      padding-bottom: 4rem;
+      background: linear-gradient(to bottom, var(--bg) 0%, var(--surface) 100%);
+      padding-top: 8rem;
+    }
+    .page-hero p { font-family: var(--font-display); font-style: italic; margin-top: 1rem; }
+    .loyalty-steps { display: flex; flex-direction: column; gap: 3rem; }
+    .loyalty-step { display: flex; gap: 2rem; align-items: flex-start; }
+    .loyalty-step__number {
+      font-family: var(--font-display);
+      font-size: 3rem;
+      font-weight: 700;
+      color: var(--gold);
+      opacity: 0.4;
+      line-height: 1;
+      min-width: 3rem;
+    }
+    .loyalty-step h3 { color: var(--cream); margin-bottom: 0.5rem; }
+  </style>
+</body>
+</html>

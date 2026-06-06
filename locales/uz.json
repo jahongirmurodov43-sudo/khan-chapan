@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "menu": "Menyu",
+    "story": "Bizning hikoyamiz",
+    "events": "Tadbirlar",
+    "tour": "3D Tur",
+    "loyalty": "Tanga",
+    "careers": "Karyera",
+    "contact": "Aloqa",
+    "reserve": "Stol band qilish"
+  },
+  "footer": {
+    "address": "Usta Olim yo'lagi 5, Sebzar, Toshkent",
+    "rights": "Barcha huquqlar himoyalangan",
+    "follow": "Bizni kuzating"
+  },
+  "home": {
+    "hero_tag": "Discover The Legend Within",
+    "hero_sub": "Asrlar davomida shakllangan sharq taomlari",
+    "hero_cta": "Stol band qilish",
+    "story_heading": "Afsona",
+    "story_text": "Khan Chapan — bu oddiy restoran emas. Bu O'zbek oshxonasining tirik tarixi bo'lib, har bir taom tarix og'irligini va ajdodlar issiqligini o'zida mujassam etadi.",
+    "story_cta": "Bizning hikoyamiz",
+    "dishes_heading": "Maxsus taomlar",
+    "cta_heading": "Bu kecha stolga band qiling",
+    "cta_sub": "Afsonani shaxsan his eting",
+    "cta_btn": "Band qilish"
+  },
+  "menu": {
+    "heading": "Menyumiz",
+    "sub": "Har bir taom — afsonadagi bob",
+    "loading": "Menyu yuklanmoqda...",
+    "error": "Menyuni yuklab bo'lmadi. Keyinroq urinib ko'ring.",
+    "categories": {
+      "starters": "Salatlar",
+      "mains": "Asosiy taomlar",
+      "soups": "Sho'rvalar",
+      "grills": "Grill",
+      "drinks": "Ichimliklar",
+      "desserts": "Desertlar"
+    }
+  },
+  "story": {
+    "heading": "Bizning hikoyamiz",
+    "sub": "Ta'm bilan yozilgan afsona"
+  },
+  "events": {
+    "heading": "Tadbirlar va galereya",
+    "upcoming_heading": "Yaqinlashayotgan tadbirlar",
+    "gallery_heading": "Galereya",
+    "no_upcoming": "Hozircha rejalashtirilgan tadbir yo'q.",
+    "book_event": "Band qilish",
+    "private_heading": "Shaxsiy tadbir",
+    "private_sub": "Afsonani o'z bayramingizga olib keling",
+    "form": {
+      "name": "Ismingiz",
+      "email": "Elektron pochta",
+      "date": "Afzal ko'rgan sana",
+      "guests": "Mehmonlar soni",
+      "message": "Tadbiringiz haqida aytib bering",
+      "submit": "Ariza yuborish",
+      "success": "Rahmat! Tez orada siz bilan bog'lanamiz."
+    }
+  },
+  "tour": {
+    "heading": "3D Tur",
+    "sub": "Kelishdan oldin Khan Chapan bilan tanishing"
+  },
+  "loyalty": {
+    "heading": "Khan Tangalari",
+    "sub": "Har bir tashrif bilan bonus to'plang"
+  },
+  "careers": {
+    "heading": "Afsonaga qo'shiling",
+    "sub": "Biz doim ishtiyoqli odamlarni izlaymiz",
+    "form": {
+      "name": "Ismingiz",
+      "email": "Elektron pochta",
+      "position": "Murojaat qilayotgan lavozim",
+      "message": "O'zingiz haqingizda gapirib bering",
+      "cv": "Rezyumeni biriktiring",
+      "submit": "Murojaat qilish",
+      "success": "Ariza qabul qilindi. Tez orada siz bilan bog'lanamiz."
+    }
+  },
+  "contact": {
+    "heading": "Bizni toping",
+    "hours_heading": "Ish vaqti",
+    "hours": {
+      "weekdays": "Du – Ju: 11:00 – 23:00",
+      "weekends": "Sh – Ya: 10:00 – 00:00"
+    },
+    "social_heading": "Bizni kuzating",
+    "reserve_heading": "Stol band qilish"
+  }
+}
